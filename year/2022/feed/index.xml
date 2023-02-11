@@ -1,0 +1,200 @@
+
+
+
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>2022 &#8211; Neil LeDoux</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Mon, 23 Jan 2023 12:09:57 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+	<item>
+		<title>Portfolio 001</title>
+		<link>./../../../portfolio-001/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Sun, 22 Jan 2023 07:13:28 +0000</pubDate>
+				<category><![CDATA[2022]]></category>
+		<category><![CDATA[Diamond Series]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<guid isPermaLink="false">./../../../index.html?page_id=730</guid>
+
+					<description><![CDATA[Brief information about this particular work.]]></description>
+										<content:encoded><![CDATA[		<div data-elementor-type="wp-page" data-elementor-id="730" class="elementor elementor-730" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-e02563e elementor-reverse-mobile elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="e02563e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-4411f23" data-id="4411f23" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-31315d4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="31315d4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-62af5eb" data-id="62af5eb" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-1f6f299 elementor-widget elementor-widget-heading" data-id="1f6f299" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h1 class="elementor-heading-title elementor-size-default">2022</h1>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-a4c9fc7 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a4c9fc7" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9615e11" data-id="9615e11" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c477695 elementor-widget elementor-widget-text-editor" data-id="c477695" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix">Brief information about this particular work.</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-4f5cfff elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4f5cfff" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6a30c1c" data-id="6a30c1c" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-08f60f7 elementor-widget elementor-widget-heading" data-id="08f60f7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Share</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-a2a91d3 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--align-left elementor-share-buttons--color-custom elementor-grid-tablet-0 elementor-share-buttons-tablet--align-left elementor-share-buttons--shape-square elementor-grid-0 elementor-widget elementor-widget-share-buttons" data-id="a2a91d3" data-element_type="widget" data-widget_type="share-buttons.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-grid">
+								<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_facebook">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-facebook"
+								   aria-hidden="true"></i>
+								<span
+									class="elementor-screen-only">Share on facebook</span>
+							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_twitter">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-twitter"
+								   aria-hidden="true"></i>
+								<span
+									class="elementor-screen-only">Share on twitter</span>
+							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_linkedin">
+															<span class="elementor-share-btn__icon">
+								<i class="fab fa-linkedin"
+								   aria-hidden="true"></i>
+								<span
+									class="elementor-screen-only">Share on linkedin</span>
+							</span>
+																				</div>
+					</div>
+									<div class="elementor-grid-item">
+						<div class="elementor-share-btn elementor-share-btn_email">
+															<span class="elementor-share-btn__icon">
+								<i class="fas fa-envelope"
+								   aria-hidden="true"></i>
+								<span
+									class="elementor-screen-only">Share on email</span>
+							</span>
+																				</div>
+					</div>
+						</div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1cd2f07" data-id="1cd2f07" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-5062e64 elementor-widget elementor-widget-heading" data-id="5062e64" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+			<h2 class="elementor-heading-title elementor-size-default">Work Info</h2>		</div>
+				</div>
+				<div class="elementor-element elementor-element-4193ffc elementor-nav-menu--indicator-none elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="4193ffc" data-element_type="widget" id="info_menu" data-settings="{&quot;layout&quot;:&quot;vertical&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none"><ul id="menu-1-4193ffc" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-1178"><a href="./../index.html" aria-current="page" class="elementor-item elementor-item-active">2022</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1195"><a href="./../../../diamond_series/index.html" class="elementor-item">Diamond Series</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1177"><a href="./../../../practice/painting/oil_on_canvas/index.html" class="elementor-item">Oil on Canvas</a></li>
+</ul></nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
+			<i class="eicon-menu-bar" aria-hidden="true"></i>
+			<span class="elementor-screen-only">Menu</span>
+		</div>
+			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-4193ffc" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-taxonomy menu-item-object-category current-menu-item menu-item-1178"><a href="./../index.html" aria-current="page" class="elementor-item elementor-item-active">2022</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1195"><a href="./../../../diamond_series/index.html" class="elementor-item">Diamond Series</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1177"><a href="./../../../practice/painting/oil_on_canvas/index.html" class="elementor-item">Oil on Canvas</a></li>
+</ul></nav>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-cdc1169 elementor-widget elementor-widget-text-editor" data-id="cdc1169" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>2.35 x 1.3 ft<br />2.35 x 1.3 ft</p><p> </p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-d6eac95 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d6eac95" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+								</div>
+		</section>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-bc0e56c" data-id="bc0e56c" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-ad7fa5a elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box" data-id="ad7fa5a" data-element_type="widget" data-widget_type="image-box.default">
+				<div class="elementor-widget-container">
+			<div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="1024" height="512" src="./../../../wp-content/uploads/2023/01/studio_visit_009-1024x512.jpg" class="attachment-large size-large" alt="" decoding="async" srcset="./../../../wp-content/uploads/2023/01/studio_visit_009-1024x512.jpg 1024w, ./../../../wp-content/uploads/2023/01/studio_visit_009-300x150.jpg 300w, ./../../../wp-content/uploads/2023/01/studio_visit_009-768x384.jpg 768w, ./../../../wp-content/uploads/2023/01/studio_visit_009-500x250.jpg 500w, ./../../../wp-content/uploads/2023/01/studio_visit_009-800x400.jpg 800w, ./../../../wp-content/uploads/2023/01/studio_visit_009.jpg 1200w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-2f178b8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2f178b8" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+								</div>
+		</section>
+						</div>
+					</div>
+		]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Portfolio</title>
+		<link>./../../../portfolio/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Fri, 20 Jan 2023 09:50:07 +0000</pubDate>
+				<category><![CDATA[2022]]></category>
+		<category><![CDATA[Diamond Series]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<guid isPermaLink="false">./../../../portfolio/index.html</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
