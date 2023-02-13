@@ -40,7 +40,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-post-249-css" href="./../wp-content/uploads/elementor/css/post-249.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="./../wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-3919-css" href="./../wp-content/uploads/elementor/css/post-3919.css?ver=1676158329" media="all">
+<link rel="stylesheet" id="elementor-post-3919-css" href="./../wp-content/uploads/elementor/css/post-3919.css?ver=1676263639" media="all">
 <link rel="stylesheet" id="elementor-post-3803-css" href="./../wp-content/uploads/elementor/css/post-3803.css?ver=1675632171" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
@@ -206,7 +206,7 @@ width:20px; height:20px; margin: 0 10px 4px -4px ;
 
 .dataTables_wrapper {
 	
-	margin-top: -20px; padding-top:0px;
+	margin-top: 20px; padding-top:0px;
 	
 	
 }
@@ -273,7 +273,7 @@ float:left;
     font-weight:700;
      letter-spacing:0.1em;
      color:#666666;
-float:left; margin:0 0 0 0px ; padding:0 0px 30px 0 ; width:40%;
+float:left; margin:0 0 0 0px ; padding: 20px 0px 10px 0 ; width:40%;
 }
  .tablepress .sorting:after, .tablepress .sorting_asc:after, .tablepress .sorting_desc:after {
      -webkit-font-smoothing: antialiased;
@@ -287,10 +287,10 @@ float:left; margin:0 0 0 0px ; padding:0 0px 30px 0 ; width:40%;
 
 
 {
-    font-size:12px;
-    font-weight:600;
-     letter-spacing:0.07em;
-     color:#999999;
+    font-size:15px;
+    font-weight:500;
+     letter-spacing: 0.02em;
+     color:#666666;
     padding-top:2px;
 
 
@@ -302,16 +302,18 @@ float:left; margin:0 0 0 0px ; padding:0 0px 30px 0 ; width:40%;
 
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
-    font-size:12px;
-     height:16px; max-width: 80px;
-     border:solid 2px #dddddd;
+    font-size:14px;
+     height:16px; max-width: 100px;
+     border:solid 1px #666666;
+	color: #666666;
+	
 }
  .dataTables_filter{
-    position:absolute; top:0px; right:0px;
-     margin: -50px 2px 0px 2px  ;float:right;
+    position:absolute; top:-50px; right:0px;
+     margin: 0px 20px 0px 2px  ;float:right;
      padding: 0px 0px 0px 0px ;
-letter-spacing: 0.1em;
-    width:auto;
+letter-spacing: 0.05em;
+   width: auto;
     
 }
 
@@ -354,40 +356,6 @@ text-align: center; float:none;
 
 
 	
-#tab-menu {
-	 overflow:hidden;
-font-size:0.84em; margin: 0px 0px 0px -40px; padding: 0px 0px 0px 0px;   max-width: 60%; 
-float:left;
-
-
-}
-
-#tab-menu .table {
-	display: table;   
-	margin: 0 auto;
-}
-
-#tab-menu ul#horizontal-list {
-	min-width: auto; display: inline-block; 
-	list-style: none;
-	padding-top: 2px; color: 		
-	
-	}
-#tab-menu	ul#horizontal-list li {
-		display: inline-block; margin: 0 16px 0 0 ; 
-	
-	
-	}
-
-
-#tab-menu	ul#horizontal-list li a {
-		
-color: #666666;
-	
-
-	
-	}
-
 
 
 
@@ -435,8 +403,105 @@ margin-bottom:30%
 
 
 
-@media screen and (max-width:1024px) 
-{
+
+
+
+
+
+
+/* style for the css menu dropdown container */
+.menu {
+    position:relative;
+    display:inline-block;
+​    z-index:2; padding:0;
+    margin:0 0 0 -8px ;
+    outline:0;letter-spacing: 0.05em;    
+text-align:left;cursor: pointer;
+}
+
+
+.menu h5{
+    position:relative;
+    display:inline-block;
+​    z-index:2; padding:0;
+    margin:0 0 0 -8px ;
+    outline:0;letter-spacing: 0.05em;  cursor: pointer;  text-align:left;color: #666666;
+}
+
+/* style for the button */
+.menu:before {
+    content: "\25BD \a0"; 
+   
+    padding: 5px 10px;
+    border: 0px solid #ffffff;
+    border-radius:0px;
+    background: #ffffff;
+   color: #666666;
+
+}
+
+.menu :hover {
+	
+	color: #111111;
+	
+}
+
+.menu:focus { pointer-events:none; }
+
+/* If :focus detected the dropdown menu is displayed by making it visible */
+.menu:focus .menu-dropdown { opacity:1; visibility:visible; }
+
+
+.menu-dropdown {
+    background-color: #ffffff;
+    width: auto;
+    margin: 3px 0px 0 0px;
+    padding: 24px;
+    text-align:left;
+    border:solid 1px  #666666;
+    
+    pointer-events: auto;
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 1s;
+	background: #ffffff;}
+    
+
+
+.menu-dropdown a {
+    background:transparent;
+    border:none;
+    outline:0; float:left;
+    display:block;
+    color:#333333;
+    text-decoration:none;
+    width:190px; 
+margin: 0 0 3px 3px;
+    padding:4px  ; 
+font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+
 
 
 
@@ -466,8 +531,10 @@ flex:30%;
 
 }
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width:768px) {
+
+
 	
 	
 
@@ -549,8 +616,9 @@ display: inline-block; float:left;
 	
 	
 
+
 	
-}
+	
 
 	
 	
@@ -558,10 +626,8 @@ display: inline-block; float:left;
 	
 	
 	
-	
-	
-	
-	
+
+}
 	
 	
 	
@@ -798,7 +864,18 @@ letter-spacing: 0.1em;
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2cc5e29" data-id="2cc5e29" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-ca74f2d elementor-tabs-alignment-center elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="ca74f2d" data-element_type="widget" id="work-tabs" data-widget_type="tabs.default">
+								<div class="elementor-element elementor-element-132b9b9 elementor-widget elementor-widget-html" data-id="132b9b9" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<script>function myFunction() {
+  var x = document.getElementById("myTopcat");
+  if (x.className === "topcat") {
+    x.className += " responsive";
+  } else {
+    x.className = "topcat";
+  }
+}</script>		</div>
+				</div>
+				<div class="elementor-element elementor-element-ca74f2d elementor-tabs-alignment-center elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="ca74f2d" data-element_type="widget" id="work-tabs" data-widget_type="tabs.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-tabs">
 			<div class="elementor-tabs-wrapper" role="tablist">
@@ -810,12 +887,12 @@ letter-spacing: 0.1em;
 			<div class="elementor-tabs-content-wrapper" role="tablist" aria-orientation="vertical">
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2121">Series</div>
 					<div id="elementor-tab-content-2121" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2121" tabindex="0" hidden="false">
-<div id="tab-menu">
-<div class="table">
-<ul id="horizontal-list">
- 	<li><a href="#diamond_series">Diamond Series (<span class="sbs-count-posts">3</span>) </a></li>
-<li><a href="#some_other">Some Other Series</a></li>
-</ul>
+<div class="menu" tabindex="0">
+<h5>Series Title</h5>
+<div class="menu-dropdown">
+<a>Diamond Series</a>
+<a>Some other Series</a>
+<a>Yet another Series</a>
 </div>
 </div>
 <div>
@@ -1137,12 +1214,11 @@ letter-spacing: 0.1em;
 </div>
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2122">Medium</div>
 					<div id="elementor-tab-content-2122" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2122" tabindex="0" hidden="hidden">
-<div id="tab-menu">
-<div class="table">
-<ul id="horizontal-list">
- 	<li><a href="#oil_canvas">Oil on Canvas</a></li>
- 	<li><a href="#acryic_canvas">Acrylic on Canvas</a></li>
-</ul>
+<div class="menu" tabindex="0">
+<h5>Medium Type</h5>
+<div class="menu-dropdown">
+<a>Acrylic on Canvas</a>
+<a>Oil on Canvas</a>
 </div>
 </div>
 <div>
@@ -1462,16 +1538,14 @@ letter-spacing: 0.1em;
 <!-- #tablepress-1-no-2 from cache -->
 </div>
 </div>
-</div>
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2123">Size</div>
 					<div id="elementor-tab-content-2123" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2123" tabindex="0" hidden="hidden">
-<div id="tab-menu">
-<div class="table">
-<ul id="horizontal-list">
- 	<li><a href="#small">Small</a></li>
- 	<li><a href="#medium">Medium</a></li>
- 	<li><a href="#large">Large</a></li>
-</ul>
+<div class="menu" tabindex="0">
+<h5>Size Range</h5>
+<div class="menu-dropdown">
+<a>Small</a>
+<a>Medium</a>
+<a>Large</a>
 </div>
 </div>
 <div>
@@ -1791,16 +1865,13 @@ letter-spacing: 0.1em;
 <!-- #tablepress-1-no-3 from cache -->
 </div>
 </div>
-</div>
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2124">Status</div>
 					<div id="elementor-tab-content-2124" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-2124" tabindex="0" hidden="hidden">
-<div id="tab-menu">
-<div class="table">
-<ul id="horizontal-list">
- 	<li><a href="#small">Available</a></li>
- 	<li><a href="#medium">Unavailable</a></li>
- 	
-</ul>
+<div class="menu" tabindex="0">
+<h5>Availability</h5>
+<div class="menu-dropdown">
+<a>Open</a>
+<a>Closed</a>
 </div>
 </div>
 <div>
@@ -2125,13 +2196,11 @@ letter-spacing: 0.1em;
 				</div>
 				</div>
 					</div>
-		</section>
-</div>
+		</div>
 							</div>
-		
+		</section>
 						</div>
-					</main>
-</div>
+					</div>
 		
 					
 					
@@ -2142,7 +2211,7 @@ letter-spacing: 0.1em;
 
 
 				
-			
+			</main>
 
 			
 		</div>
@@ -2150,7 +2219,7 @@ letter-spacing: 0.1em;
 		
 	</div>
 		
-
+</div>
 
 		<div data-elementor-type="footer" data-elementor-id="3327" class="elementor elementor-3327 elementor-location-footer" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
@@ -2250,7 +2319,7 @@ letter-spacing: 0.1em;
 				</div>
 		</div>
 		
-	
+	</div>
 
 
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
@@ -2267,7 +2336,7 @@ letter-spacing: 0.1em;
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"8995a703d5","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"f2e0367750","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>

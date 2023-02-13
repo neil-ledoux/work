@@ -205,7 +205,7 @@ width:20px; height:20px; margin: 0 10px 4px -4px ;
 
 .dataTables_wrapper {
 	
-	margin-top: -20px; padding-top:0px;
+	margin-top: 20px; padding-top:0px;
 	
 	
 }
@@ -272,7 +272,7 @@ float:left;
     font-weight:700;
      letter-spacing:0.1em;
      color:#666666;
-float:left; margin:0 0 0 0px ; padding:0 0px 30px 0 ; width:40%;
+float:left; margin:0 0 0 0px ; padding: 20px 0px 10px 0 ; width:40%;
 }
  .tablepress .sorting:after, .tablepress .sorting_asc:after, .tablepress .sorting_desc:after {
      -webkit-font-smoothing: antialiased;
@@ -286,10 +286,10 @@ float:left; margin:0 0 0 0px ; padding:0 0px 30px 0 ; width:40%;
 
 
 {
-    font-size:12px;
-    font-weight:600;
-     letter-spacing:0.07em;
-     color:#999999;
+    font-size:15px;
+    font-weight:500;
+     letter-spacing: 0.02em;
+     color:#666666;
     padding-top:2px;
 
 
@@ -301,16 +301,18 @@ float:left; margin:0 0 0 0px ; padding:0 0px 30px 0 ; width:40%;
 
 
 input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
-    font-size:12px;
-     height:16px; max-width: 80px;
-     border:solid 2px #dddddd;
+    font-size:14px;
+     height:16px; max-width: 100px;
+     border:solid 1px #666666;
+	color: #666666;
+	
 }
  .dataTables_filter{
-    position:absolute; top:0px; right:0px;
-     margin: -50px 2px 0px 2px  ;float:right;
+    position:absolute; top:-50px; right:0px;
+     margin: 0px 20px 0px 2px  ;float:right;
      padding: 0px 0px 0px 0px ;
-letter-spacing: 0.1em;
-    width:auto;
+letter-spacing: 0.05em;
+   width: auto;
     
 }
 
@@ -353,40 +355,6 @@ text-align: center; float:none;
 
 
 	
-#tab-menu {
-	 overflow:hidden;
-font-size:0.84em; margin: 0px 0px 0px -40px; padding: 0px 0px 0px 0px;   max-width: 60%; 
-float:left;
-
-
-}
-
-#tab-menu .table {
-	display: table;   
-	margin: 0 auto;
-}
-
-#tab-menu ul#horizontal-list {
-	min-width: auto; display: inline-block; 
-	list-style: none;
-	padding-top: 2px; color: 		
-	
-	}
-#tab-menu	ul#horizontal-list li {
-		display: inline-block; margin: 0 16px 0 0 ; 
-	
-	
-	}
-
-
-#tab-menu	ul#horizontal-list li a {
-		
-color: #666666;
-	
-
-	
-	}
-
 
 
 
@@ -434,8 +402,105 @@ margin-bottom:30%
 
 
 
-@media screen and (max-width:1024px) 
-{
+
+
+
+
+
+
+/* style for the css menu dropdown container */
+.menu {
+    position:relative;
+    display:inline-block;
+​    z-index:2; padding:0;
+    margin:0 0 0 -8px ;
+    outline:0;letter-spacing: 0.05em;    
+text-align:left;cursor: pointer;
+}
+
+
+.menu h5{
+    position:relative;
+    display:inline-block;
+​    z-index:2; padding:0;
+    margin:0 0 0 -8px ;
+    outline:0;letter-spacing: 0.05em;  cursor: pointer;  text-align:left;color: #666666;
+}
+
+/* style for the button */
+.menu:before {
+    content: "\25BD \a0"; 
+   
+    padding: 5px 10px;
+    border: 0px solid #ffffff;
+    border-radius:0px;
+    background: #ffffff;
+   color: #666666;
+
+}
+
+.menu :hover {
+	
+	color: #111111;
+	
+}
+
+.menu:focus { pointer-events:none; }
+
+/* If :focus detected the dropdown menu is displayed by making it visible */
+.menu:focus .menu-dropdown { opacity:1; visibility:visible; }
+
+
+.menu-dropdown {
+    background-color: #ffffff;
+    width: auto;
+    margin: 3px 0px 0 0px;
+    padding: 24px;
+    text-align:left;
+    border:solid 1px  #666666;
+    
+    pointer-events: auto;
+    position: absolute;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+    transition: visibility 1s;
+	background: #ffffff;}
+    
+
+
+.menu-dropdown a {
+    background:transparent;
+    border:none;
+    outline:0; float:left;
+    display:block;
+    color:#333333;
+    text-decoration:none;
+    width:190px; 
+margin: 0 0 3px 3px;
+    padding:4px  ; 
+font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+
+
 
 
 
@@ -465,8 +530,10 @@ flex:30%;
 
 }
 
+@media screen and (max-width: 768px) {
 
-@media screen and (max-width:768px) {
+
+
 	
 	
 
@@ -548,8 +615,9 @@ display: inline-block; float:left;
 	
 	
 
+
 	
-}
+	
 
 	
 	
@@ -557,10 +625,8 @@ display: inline-block; float:left;
 	
 	
 	
-	
-	
-	
-	
+
+}
 	
 	
 	
@@ -925,7 +991,7 @@ letter-spacing: 0.1em;
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"8995a703d5","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"f2e0367750","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
