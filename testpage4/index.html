@@ -42,7 +42,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-post-3803-css" href="./../wp-content/uploads/elementor/css/post-3803.css?ver=1675632171" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-4661-css" href="./../wp-content/uploads/elementor/css/post-4661.css?ver=1676351150" media="all">
+<link rel="stylesheet" id="elementor-post-4661-css" href="./../wp-content/uploads/elementor/css/post-4661.css?ver=1676353857" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
 <script src="./../wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -151,15 +151,22 @@ img.emoji {
 #nextprevinner{ align-items: center; }
 
 
-#nextprev{ position:fixed; top: 16px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
+#nextprev{ position:fixed; top: 10px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
 
 
-#nextprev a{ margin-right:20px; max-width: 100px;}
+#nextprev a{ margin: 6px 20px 0 0 ; max-width: 100px; }
+
+
+
+.post-navigation__prev--label:before {
+  content: '\25C5'"\00a0 ";font-size:22px; position:absolute;
+    top: 15px; left: 15px;}
+
+.post-navigation__next--label:after {
+  content: "\00a0 "'\25BB'; font-size:22px;position:absolute;
+    top: 15px; right: 26px;  }
 
 #single-label1{ font-size: 14px; line-height: 1.4em; margin-top:-2px;
-	
-	
-	
 }
 
  #single_desktop img {
@@ -472,10 +479,21 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(2n+1) {margin-right: 4%;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
-#nextprev{ position:fixed; top: 36px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
+#nextprev{ position:fixed; top: 23px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
 
 
 #nextprev a{ margin-right:20px;}
+	
+.post-navigation__prev--label:before {position:static;
+  content: '\25C5'"\00a0 ";font-size:20px; 
+    }
+
+.post-navigation__next--label:after {position:static;
+  content: "\00a0 "'\25BB'; font-size:20px;
+    }
+	 
+	 
+	 
 	 
 	 
 }
@@ -699,7 +717,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 				<div class="elementor-widget-container">
 					<div class="elementor-post-navigation">
 			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
-				<a href="./../testpage3-2/index.html" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span></span></a>			</div>
+				<a href="./../testpage3-2/index.html" rel="prev"><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span></span></a>			</div>
 						<div class="elementor-post-navigation__next elementor-post-navigation__link">
 							</div>
 		</div>
