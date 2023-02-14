@@ -42,7 +42,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-post-3803-css" href="./../wp-content/uploads/elementor/css/post-3803.css?ver=1675632171" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-4661-css" href="./../wp-content/uploads/elementor/css/post-4661.css?ver=1676272054" media="all">
+<link rel="stylesheet" id="elementor-post-4661-css" href="./../wp-content/uploads/elementor/css/post-4661.css?ver=1676351150" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
 <script src="./../wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -146,6 +146,16 @@ img.emoji {
  .topnav-right a img{
      display:inline-block ;
 }
+
+
+#nextprevinner{ align-items: center; }
+
+
+#nextprev{ position:fixed; top: 16px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
+
+
+#nextprev a{ margin-right:20px;}
+
 #single-label1{ font-size: 14px; line-height: 1.4em; margin-top:-2px;
 	
 	
@@ -399,6 +409,13 @@ img.emoji {
      margin: 0 0 0 0;
      line-height: 1.2em
 }
+
+.lcp_paginator li {border: 1px solid #ccc!important; box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1); color: #777;}
+.lcp_paginator li a {color: #aaa;}
+ul.lcp_paginator {padding: 0 0 20px 0!important;}
+ul.lcp_paginator:before {content: ""; display: table; clear: both;} 
+
+
  @media screen and (max-width: 1024px) {
      .wpbf-archive-content .wpbf-post-style-boxed{
          margin:4px;
@@ -455,12 +472,21 @@ img.emoji {
 .cardview.postlist:nth-of-type(2n+1) {margin-right: 4%;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
-	 
+#nextprev{ position:fixed; top: 36px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
+
+
+#nextprev a{ margin-right:20px;}
 	 
 	 
 }
  @media screen and (max-width:300px) {
 
+	 
+	 #nextprev{ display:none;}
+
+
+#nextprev a{ display:none;}
+	 
 	 
 	#topnav {
      position:fixed;
@@ -562,7 +588,7 @@ img.emoji {
 .cardview.postlist:nth-of-type(2n+1) {margin-right: 4%;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
-	 
+
 	 
 }</style>
 		<style id="wpbf-typography-styles"></style>
@@ -665,6 +691,24 @@ img.emoji {
 		</div>
 							</div>
 		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-c77c2c1 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="c77c2c1" data-element_type="section" id="nextprevinner">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-1c20cce" data-id="1c20cce" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c860f6e elementor-widget elementor-widget-post-navigation" data-id="c860f6e" data-element_type="widget" id="nextprev" data-widget_type="post-navigation.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-post-navigation">
+			<div class="elementor-post-navigation__prev elementor-post-navigation__link">
+				<a href="./../testpage3/index.html" rel="prev"><span class="post-navigation__arrow-wrapper post-navigation__arrow-prev"><i class="fa fa-angle-left" aria-hidden="true"></i><span class="elementor-screen-only">Prev</span></span><span class="elementor-post-navigation__link__prev"><span class="post-navigation__prev--label">Previous</span></span></a>			</div>
+						<div class="elementor-post-navigation__next elementor-post-navigation__link">
+				<a href="./../testpage4/index.html" rel="next"><span class="elementor-post-navigation__link__next"><span class="post-navigation__next--label">Next</span></span><span class="post-navigation__arrow-wrapper post-navigation__arrow-next"><i class="fa fa-angle-right" aria-hidden="true"></i><span class="elementor-screen-only">Next</span></span></a>			</div>
+		</div>
+				</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-5c9447bf elementor-reverse-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5c9447bf" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-no">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2a28d301 elementor-hidden-tablet elementor-hidden-phone" data-id="2a28d301" data-element_type="column">
@@ -759,6 +803,14 @@ img.emoji {
 				</div>
 				</div>
 					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-9195ce4 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9195ce4" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-58da555" data-id="58da555" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
 		</div>
 							</div>
 		</section>
@@ -1116,7 +1168,7 @@ img.emoji {
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"cba84cd496","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"a7241be8b1","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
