@@ -40,7 +40,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-post-249-css" href="./wp-content/uploads/elementor/css/post-249.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="./wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="./wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-3803-css" href="./wp-content/uploads/elementor/css/post-3803.css?ver=1675632171" media="all">
+<link rel="stylesheet" id="elementor-post-6113-css" href="./wp-content/uploads/elementor/css/post-6113.css?ver=1676447961" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./wp-content/uploads/elementor/css/post-3327.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
 <script src="./wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
@@ -92,6 +92,57 @@ img.emoji {
      padding-top:0px;
      max-width:50%;
 }
+
+#nnav {
+ max-width: 1500px; 
+ overflow:visible; min-height: 56px;
+  background: #ffffff;
+  position: fixed; z-index:1999;text-align:center;
+  top: 0; margin: -2px 0 0 0 ; padding: 2px 0 0 0 ;align-content: center;}
+
+#nnav ul li a img {
+
+	height: 20px; width:20px; padding: 0 ; margin: -10px 0 0 0;
+	
+}
+
+
+#nnav ul {
+ position: absolute; left:50%;
+padding: 0 ; width:264px;
+  margin: 0 0 0 -128px ;
+
+
+}
+
+#nnav ul li {
+  list-style: none; display: inline-block; 
+}
+#nnav li.nnavimages {
+  list-style: none;}
+
+#nnav ul li a {z-index:3200; 
+  color: #333333;
+  padding: 2px 10px 2px 12px;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 500;
+ line-height: 54px; 
+}
+#nnav ul li h5 a {
+	font-size:20px;  padding: 0   ; margin: 0 8px 0 0;   }
+
+#nnav ul li a:hover,
+#nnav ul li a.active {
+  background: #ffffff;
+  
+} 
+
+
+
+
+
+
  #topnav {
      position:fixed;
      width:100%;
@@ -150,20 +201,20 @@ img.emoji {
 #nextprevinner{ align-items: center; }
 
 
-#nextprev{ position:fixed; top: 10px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
+#nextprev{ position:fixed; top: 8px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
 
 
-#nextprev a{ margin: 6px 20px 0 0 ; max-width: 100px; }
+#nextprev a{ margin: 2px 28px 0 0 ; max-width: 100px; }
 
 
 
 .post-navigation__prev--label:before {
   content: '\25C5'"\00a0 ";font-size:22px; position:absolute;
-    top: 15px; left: 15px;}
+    top: 7px; left: 15px;}
 
 .post-navigation__next--label:after {
   content: "\00a0 "'\25BB'; font-size:22px;position:absolute;
-    top: 15px; right: 26px;  }
+    top: 7px; right: 34px;  }
 
 #single-label1{ font-size: 14px; line-height: 1.4em; margin-top:-2px;
 }
@@ -379,6 +430,113 @@ img.emoji {
      padding:0 ;
      font-size: 14px;
 }
+
+
+
+
+
+
+.menudrop{
+     position:relative;
+     display:none;
+     z-index:3004;
+     padding:0;
+     margin:0 0 0 -6px ;
+     outline:0;
+     letter-spacing: 0.05em;
+     text-align:center;
+     cursor: pointer;
+}
+ .menudrop img{
+     position:relative;
+     display:inline-block;
+  width: 30px; height: 15px;
+     padding:0;
+     margin:-4px 0 0 15px ;
+     outline:0;
+    
+     cursor: pointer;
+   
+     
+}
+ 
+ .menudrop:hover {   color: #111111;
+}
+ .menudrop:focus {
+     pointer-events:none;
+}
+ .menudrop:focus .menudrop-dropdown { 
+     opacity:1;
+     visibility:visible;
+}
+ .menudrop-dropdown {
+     background-color: #ffffff;
+     overflow:hidden;
+     min-width: 100%; 
+     margin: 0;
+     padding: 6px 0 0 0 ; left:0; top: 36px;
+display:inline-block;
+     text-align:center;
+     border:solid 0px #cccccc;
+     pointer-events: auto;
+     position: fixed;
+align-content:center;
+z-index:3004;     opacity: 0;
+     visibility: hidden;
+     transition: visibility 1s;
+     background: #ffffff;
+}
+ .menudrop-dropdown a {
+     background:transparent;
+     border:none;
+     outline:0;
+    
+     display:inline-block;
+     
+    
+     margin: 3px ;
+     padding:0 ;
+     font-size: 14px;
+	 
+	 
+}
+
+ .menudrop-dropdown a img{
+    
+    
+   
+     
+  min-width: 24px; min-height: 24px;
+	 
+	 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  .cardview.postlist {
     float: left;
      width: 23%;
@@ -438,6 +596,15 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 	 
 }
  @media screen and (max-width: 768px) {
+	 
+	 #nnav li.nnavimages {
+  list-style: none;display:none;}
+	 .menudrop{
+   margin-left: 2px;
+     display:inline-block;
+    
+}
+
      .tablepress img {
          margin-left:-20px;
          max-height: 70px;
@@ -478,18 +645,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(2n+1) {margin-right: 4%;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
-#nextprev{ position:fixed; top: 23px; margin: 0 0 0 0; z-index:2010;max-width: 1500px;}
 
-
-#nextprev a{ margin-right:20px;}
-	
-.post-navigation__prev--label:before {position:static;
-  content: '\25C5'"\00a0 ";font-size:20px; 
-    }
-
-.post-navigation__next--label:after {position:static;
-  content: "\00a0 "'\25BB'; font-size:20px;
-    }
 	 
 	 
 	 
@@ -620,68 +776,39 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 	<div id="container" class="hfeed wpbf-page">
 
 		
-				<div data-elementor-type="header" data-elementor-id="3803" class="elementor elementor-3803 elementor-location-header" data-elementor-settings="[]">
+				<div data-elementor-type="header" data-elementor-id="6113" class="elementor elementor-6113 elementor-location-header" data-elementor-settings="[]">
 		<div class="elementor-section-wrap">
-					<section class="elementor-section elementor-top-section elementor-element elementor-element-89f6262 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="89f6262" data-element_type="section" id="topnav">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-e4cff2f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e4cff2f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-36e5ede" data-id="36e5ede" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-75555ce" data-id="75555ce" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-fa3c585 elementor-widget elementor-widget-html" data-id="fa3c585" data-element_type="widget" data-widget_type="html.default">
+								<div class="elementor-element elementor-element-be9c1c5 elementor-widget elementor-widget-html" data-id="be9c1c5" data-element_type="widget" id="nnav" data-widget_type="html.default">
 				<div class="elementor-widget-container">
-			
-  <div class="toptitle">
-
-  <a href="./index.html">Neil LeDoux</a>
- 
+			 
 
 
-
-
-
-
-  <div class="topnav-right">
-    
-    
-     <ul>
-     <li> 
-     
-     
-     
-     
-     <a href="./about/index.html">
-          
-        <img src="./wp-content/uploads/2023/02/about06.png" alt="About"></a>
-</li>
-          
-          <li><a href="./works/index.html">
-          
-        <img src="./wp-content/uploads/2023/02/gallery06.png" alt="Works"></a></li>
-          
-          <li><a href="./catalog/index.html">
-          
-        <img src="./wp-content/uploads/2023/02/list06.png" alt="Catalog"></a></li>
-     
-     
-    </ul>
-    
-    
+ <ul>
+    <li><h5><a href="./index.html">Neil LeDoux</a></h5></li>
+     <li class="nnavimages"><a href="./about/index.html"><img src="./wp-content/uploads/2023/02/about09.png" alt=""></a></li>
+     <li class="nnavimages"><a href="./works/index.html"><img src="./wp-content/uploads/2023/02/gallery06.png" alt=""></a></li>
+     <li class="nnavimages"><a href="./catalog/index.html"><img src="./wp-content/uploads/2023/02/list06.png" alt=""></a></li>
+        
+    <li>
+<div class="menudrop" tabindex="0">
+<img src="./wp-content/uploads/2023/02/drop2.png" alt="menu">
+<div class="menudrop-dropdown">
+<a href="./about/index.html"><img src="./wp-content/uploads/2023/02/about09.png" alt=""></a>
+     <a href="./works/index.html"><img src="./wp-content/uploads/2023/02/gallery06.png" alt=""></a>
+    <a href="./catalog/index.html"><img src="./wp-content/uploads/2023/02/list06.png" alt=""></a>
 </div>
 </div>
+    
+    
+  </li>
+  </ul>
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  		</div>
+		</div>
 				</div>
 					</div>
 		</div>
@@ -860,7 +987,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 <script src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"a7241be8b1","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"a218021c6a","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
