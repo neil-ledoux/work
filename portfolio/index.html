@@ -146,9 +146,9 @@ padding: 0 ; width:280px;
 }
 #about p{ font-size: 15px;
 line-height: 1.4em; max-width: 90%; color: #444444;}
-#about p strong {line-height:2.1em; margin-top: 20px; font-weight: 500;}
-#about a {color: #999999;font-size: 13px; }
-#about a:hover{color:#000000;}
+#about p strong {line-height:2.1em; margin-top: 20px; font-weight: 600;}
+#about a {color: #888888;font-size: 13px; line-height: 1.9em;  }
+#about a:hover{border-bottom: solid 4px #efefef; color:#000000;}
 #about div { margin-bottom:30px;}
 
  #topnav {
@@ -437,6 +437,90 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      margin: 0 0 3px 3px;
      padding:0 ;
      font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.maildrop{
+     position:relative;
+     display:inline-block;
+     z-index:1998;
+     padding:0;
+     margin:0 0 0 -6px ;
+     outline:0;
+     letter-spacing: 0.05em;
+     text-align:left;
+     cursor: pointer;
+}
+ .maildrop h5 img{
+     position:relative;
+     display:inline-block;
+     z-index:1998;
+     padding:0;
+     margin:0;
+     outline:0;
+    
+     cursor: pointer;
+     text-align:left;
+     color: #666666;
+}
+ .maildrop :hover {
+     color: #111111;
+}
+ .maildrop:focus {
+     pointer-events:none;
+}
+ .maildrop:focus .maildrop-dropdown {
+     opacity:1;
+     visibility:visible;
+}
+ .maildrop-dropdown {
+     background-color: #ffffff;
+     width: 280px;
+     margin: 3px 0px 0 0px;
+     padding: 24px;
+     text-align:left;
+     border:solid 1px #666666;
+     pointer-events: auto;
+     position: absolute;
+     z-index: 1999;
+     opacity: 0;
+     visibility: hidden;
+     transition: visibility 1s;
+     background: #ffffff;
+}
+ .maildrop-dropdown a {
+     background:transparent;
+     border:none;
+     outline:0;
+     float:left;
+     display:block;
+     color:#333333;
+     text-decoration:none;
+     width:190px;
+     margin: 0 0 3px 3px;
+     padding:0 ;
+     font-size: 14px;
+}
+.maildrop img{
+     position:relative;
+     display:inline-block;
+  width: 36px; height: 36px;
+     padding:0;
+     margin:-4px 0 0 15px ;
+     outline:0;
+    
+     cursor: pointer;
+   
+     
 }
 
 
@@ -1066,7 +1150,7 @@ width: 90%;  }
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"e93201a6c1","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"8faf6ffad6","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
