@@ -43,7 +43,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-pro-css" href="./wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="./wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-post-6113-css" href="./wp-content/uploads/elementor/css/post-6113.css?ver=1676447961" media="all">
-<link rel="stylesheet" id="elementor-post-3327-css" href="./wp-content/uploads/elementor/css/post-3327.css?ver=1675297383" media="all">
+<link rel="stylesheet" id="elementor-post-3327-css" href="./wp-content/uploads/elementor/css/post-3327.css?ver=1676676989" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
 <script src="./wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="./wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -616,7 +616,13 @@ z-index:3004;     opacity: 0;
 
 
 
-
+#myInput {
+	
+	display:none;
+	border: none;
+	
+	
+}
 
 
 
@@ -733,7 +739,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 	 
 	 
 	 
-	 #contacticons.elementor-widget .elementor-icon-list-items{  width: 400px; position:fixed; left:90%; top: 25% } 
+	 #contacticons.elementor-widget .elementor-icon-list-items{  width: 400px; position:fixed; left:10px; top: 30% } 
 	 
 	 
 	 #contacticons ul li {padding: 10px; font-size:0px }	 
@@ -1070,9 +1076,36 @@ width: 90%;  }
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<section class="elementor-section elementor-inner-section elementor-element elementor-element-3bbaf6f elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="3bbaf6f" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-aa47256" data-id="aa47256" data-element_type="column" id="footer2">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-aa47256" data-id="aa47256" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-8979b24 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--align-center elementor-share-buttons--color-custom elementor-share-buttons--shape-square elementor-grid-0 elementor-widget elementor-widget-share-buttons" data-id="8979b24" data-element_type="widget" data-widget_type="share-buttons.default">
+								<div class="elementor-element elementor-element-33a1ba9 elementor-widget__width-initial elementor-widget elementor-widget-html" data-id="33a1ba9" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<input type="text" value="https://neil-ledoux.com/" id="myInput">
+<button class="”button-share”" onclick="myFunction()">
+    <img src="./wp-content/uploads/2023/02/copy1.png" alt="copy link" style="width:24px;height:24px;">
+    
+ 
+
+<p style="font-size:14px; color: #333333;margin-top: 6px; letter-spacing: 0.06em">Share</p>
+    
+    </button>
+
+<script>function myFunction() {
+  // Get the text field
+  var copyText = document.getElementById("myInput");
+
+  // Select the text field
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); // For mobile devices
+
+  // Copy the text inside the text field
+  navigator.clipboard.writeText(copyText.value);
+  
+  // Alert the copied text
+  alert("Copied the text: " + copyText.value);
+}</script>		</div>
+				</div>
+				<div class="elementor-element elementor-element-8979b24 elementor-share-buttons--view-icon elementor-share-buttons--skin-minimal elementor-share-buttons--align-center elementor-share-buttons--color-custom elementor-share-buttons--shape-square elementor-grid-0 elementor-widget elementor-widget-share-buttons" data-id="8979b24" data-element_type="widget" data-widget_type="share-buttons.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-grid">
 								<div class="elementor-grid-item">
@@ -1121,18 +1154,18 @@ width: 90%;  }
 								<div class="elementor-element elementor-element-1b34107 elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-nav-menu--indicator-classic elementor-widget elementor-widget-nav-menu" data-id="1b34107" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none"><ul id="menu-1-1b34107" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="./works/index.html" class="elementor-item">Works</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="./about/index.html" class="elementor-item">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="./contact/index.html" class="elementor-item">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="./works/index.html" class="elementor-item">Works</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6767"><a href="./catalog/index.html" class="elementor-item">Catalog</a></li>
 </ul></nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i class="eicon-menu-bar" aria-hidden="true"></i>
 			<span class="elementor-screen-only">Menu</span>
 		</div>
 			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-1b34107" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="./works/index.html" class="elementor-item">Works</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="./about/index.html" class="elementor-item">About</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="./contact/index.html" class="elementor-item">Contact</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="./works/index.html" class="elementor-item">Works</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6767"><a href="./catalog/index.html" class="elementor-item">Catalog</a></li>
 </ul></nav>
 				</div>
 				</div>
@@ -1166,7 +1199,7 @@ width: 90%;  }
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"8a37a7380b"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"a5a63a2a03"};</script>
 <script src="./wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -1178,7 +1211,7 @@ width: 90%;  }
 <script src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"fce0fcbf1c","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"05df4147f4","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
