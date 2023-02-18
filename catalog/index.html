@@ -42,7 +42,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-post-249-css" href="./../wp-content/uploads/elementor/css/post-249.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="./../wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-3919-css" href="./../wp-content/uploads/elementor/css/post-3919.css?ver=1676432481" media="all">
+<link rel="stylesheet" id="elementor-post-3919-css" href="./../wp-content/uploads/elementor/css/post-3919.css?ver=1676725300" media="all">
 <link rel="stylesheet" id="elementor-post-6113-css" href="./../wp-content/uploads/elementor/css/post-6113.css?ver=1676447961" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1676676989" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
@@ -154,59 +154,10 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
 #about a:hover{border-bottom: solid 4px #efefef; color:#000000;}
 #about div { margin-bottom:30px;}
 
- #topnav {
-     position:fixed;
-     width:100%;
-     z-index: 2000;
-     padding: 0 ;
-     overflow:hidden;
-     background-color: #ffffff;
-     height: auto;
-     padding-bottom:20px;
-}
- .toptitle {
-     z-index:2001;
-     width: 100%;
-     text-align:right;
-     margin: 0;
-}
- .toptitle a {
-     width:48%;
-     
-     float:left;
-     text-decoration: none;
-     font-size: 22px;
-     letter-spacing: 0.01em;
-     margin:0 0 20px 0;
-     padding:0;
-}
- .topnav-right {
-    position:absolute;
-     text-align:left;
-     width: 52%;
-     right:0px 
-}
- .topnav-right li {
-     height:34px;
-     width:38px;
-     display:inline-block;
-     text-align:center;
-     border-style: solid ;
-     border-color: #efefef;
-     border-width: 0px;
-     padding:0px;
-     margin: 0 ;
-}
- .topnav-right a {
-     display:inline-block;
-     width:25px;
-     height:25px;
-     margin:-5px 5px 0px 0px;
-     padding: 1px ;
-}
- .topnav-right a img{
-     display:inline-block ;
-}
+ 
+ 
+ 
+
 
 
 
@@ -318,13 +269,14 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
 }
  .dataTables_filter{
      position:absolute;
-     top:-52px;
-     right: 60px;
+     top: -165px;
+     left: 3px;
      margin: 0px 0 0 0 ;
      float:right;
      padding: 0px 0px 0px 0px ;
      letter-spacing: 0.05em;
-    max-width: 140px; font-size:15px; 
+    max-width: 140px; font-size: 11px; font-weight: 600; text-transform: uppercase;
+	
 }
  .tablepress-id-1 th, .tablepress-id-1 td {
      padding-top:30px;
@@ -332,13 +284,13 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      margin-left: 20px;
 }
  #filter-button {
-     font-size: 13px;
+     font-size: 12px;
      color: #656565;
      font-weight: 500;
      text-decoration: none;
      width: 100%;
      text-align: left;
-     margin: 20px 0 20px 0px;
+     margin: -10px 0 80px 0px;padding:0;
 }
  .filter-button b{
      font-size: 15px;
@@ -346,19 +298,32 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      color: #666666;
      text-decoration: none;
 }
- #work-tabs .elementor-tabs-wrapper {
+
+#work-tabs .elementor-tab-title {
+	font-size: 11px; font-weight: 600; text-transform: uppercase;
+	
+	
+} 
+
+
+#work-tabs .elementor-tabs-wrapper {
      display: flex;
      flex-direction: row;
      text-decoration:none;
      overflow:hidden;
-     text-align: center;
-     float:none;
-     padding: 1px 1px 1px 1px ;
-     border-bottom: 1px solid #F0F0F0;margin-bottom:50px;
+     text-align: left;
+     float:none; 
+    border-bottom: 1px solid #CFCFCF;margin:0 0 50px 0; padding:0; 
 }
+
+#work-tabs .elementor-tab-content { margin: 0 ;padding: 0;}
  #work-tabs .elementor-tab-mobile-title {
      display: none;
 }
+
+.elementor-tab-title { margin: 0 10px -10px -20px; }
+
+
  .elementor-posts-container .elementor-post__thumbnail{
      margin-bottom:30% 
 }
@@ -375,17 +340,17 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      display:none;
 }
  .elementor-widget-tabs {
-     text-align:center;
+     text-align:left;
 }
  .elementor-tab-title {
-     text-align:center;
+     text-align:left;
 }
  .menu {
      position:relative;
      display:inline-block;
      z-index:2;
      padding:0;
-     margin:0 0 0 -6px ;
+     margin:50px 0 50px -6px ;
      outline:0;
      letter-spacing: 0.05em;
      text-align:left;
@@ -395,19 +360,22 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      position:relative;
      display:inline-block;
      z-index:2;
-     padding:0;
-     margin:0 0 0 -6px ;
+     padding: 0 ;
+     margin: 0 0 0 8px ;
      outline:0;
      letter-spacing: 0.05em;
      cursor: pointer;
      text-align:left;
-     color: #666666;
-}
- .menu:before {
+     color: #666666;font-size: 11px; font-weight: 600; text-transform: uppercase;}
+
+
+
+ .menu:after {
      content:'\26DB';
-     padding: 5px 10px;
+     padding: 6px 6px 10px 8px;
+
      border:0px solid #ffffff;
-     border-radius:0px;font-size:18px; font-weight:400;
+     border-radius:0px;font-size:15px; font-weight:200;
      background: #ffffff;
      color: #666666;
 }
@@ -445,14 +413,19 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      color:#333333;
      text-decoration:none;
      width:190px;
-     margin: 0 0 3px 3px;
+     margin: 0 0 15px 3px;
      padding:0 ;
-     font-size: 14px;
+    font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
 }
 
+.menu-dropdown :before {content:'		\25A4';
+     padding: 6px 6px 10px 8px;
 
-
-
+     border:0px solid #ffffff;
+     border-radius:0px;font-size:15px; font-weight:200;
+     background: #ffffff;
+     color: #666666;
+}
 
 
 
@@ -715,6 +688,10 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(3n+3) {margin-right: 0;}
 .cardview.postlist:nth-of-type(3n+4) {clear: both;}
 	 
+		
+	 
+	 
+	 
 	 
 	 
 }
@@ -763,9 +740,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
          max-width:46%;
          flex:46%;
     }
-     #filter-button {
-         margin: -10px 0 10px 0 ;
-    }
+  
      #tab-menu {
          font-size:0.80em;
     }
@@ -787,8 +762,14 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
 
-	 
-	 
+
+
+ 
+#work-tabs .elementor-tab-title {
+	font-size: 13px; font-weight: 600; text-transform: uppercase;
+	
+	
+} 
 	 
 	 
 	 
@@ -1048,22 +1029,22 @@ width: 90%;  }
   }
 }</script>		</div>
 				</div>
-				<div class="elementor-element elementor-element-ca74f2d elementor-tabs-alignment-center elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="ca74f2d" data-element_type="widget" id="work-tabs" data-widget_type="tabs.default">
+				<div class="elementor-element elementor-element-36040ad elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="36040ad" data-element_type="widget" id="work-tabs" data-widget_type="tabs.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-tabs">
 			<div class="elementor-tabs-wrapper" role="tablist">
-									<div id="elementor-tab-title-2121" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2121">Series</div>
-									<div id="elementor-tab-title-2122" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2122">Medium</div>
-									<div id="elementor-tab-title-2123" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2123">Size</div>
-									<div id="elementor-tab-title-2124" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2124">Status</div>
+									<div id="elementor-tab-title-5661" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-5661">Series</div>
+									<div id="elementor-tab-title-5662" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5662">Medium</div>
+									<div id="elementor-tab-title-5663" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5663">Size</div>
+									<div id="elementor-tab-title-5664" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5664">Status</div>
 							</div>
 			<div class="elementor-tabs-content-wrapper" role="tablist" aria-orientation="vertical">
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2121">Series</div>
-					<div id="elementor-tab-content-2121" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2121" tabindex="0" hidden="false">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-5661">Series</div>
+					<div id="elementor-tab-content-5661" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-5661" tabindex="0" hidden="false">
 <div class="menu" tabindex="0">
 <h5>Series Title</h5>
 <div class="menu-dropdown">
-<a>Diamond Series</a>
+<a href="#diamond_series">Diamond Series</a>
 <a>Some other Series</a>
 <a>Yet another Series</a>
 </div>
@@ -1072,10 +1053,10 @@ width: 90%;  }
 <table id="tablepress-1" class="tablepress tablepress-id-1">
 <thead>
 <tr class="row-1">
-	<th class="column-1">⌄Lot#</th>
+	<th class="column-1">⇅ Lot#</th>
 <th class="column-2"></th>
-<th class="column-3">⌄Title</th>
-<th class="column-4"> ⌄Series</th>
+<th class="column-3">⇅ Title</th>
+<th class="column-4">⇅  Series</th>
 </tr>
 </thead>
 <tbody class="row-hover">
@@ -1385,8 +1366,8 @@ width: 90%;  }
 <!-- #tablepress-1 from cache -->
 </div>
 </div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2122">Medium</div>
-					<div id="elementor-tab-content-2122" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2122" tabindex="0" hidden="hidden">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5662">Medium</div>
+					<div id="elementor-tab-content-5662" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-5662" tabindex="0" hidden="hidden">
 <div class="menu" tabindex="0">
 <h5>Medium Type</h5>
 <div class="menu-dropdown">
@@ -1398,10 +1379,10 @@ width: 90%;  }
 <table id="tablepress-1-no-2" class="tablepress tablepress-id-1">
 <thead>
 <tr class="row-1">
-	<th class="column-1">⌄Lot#</th>
+	<th class="column-1">⇅ Lot#</th>
 <th class="column-2"></th>
-<th class="column-3">⌄Title</th>
-<th class="column-4">⌄Medium</th>
+<th class="column-3">⇅ Title</th>
+<th class="column-4">⇅ Medium</th>
 </tr>
 </thead>
 <tbody class="row-hover">
@@ -1711,8 +1692,8 @@ width: 90%;  }
 <!-- #tablepress-1-no-2 from cache -->
 </div>
 </div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2123">Size</div>
-					<div id="elementor-tab-content-2123" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2123" tabindex="0" hidden="hidden">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5663">Size</div>
+					<div id="elementor-tab-content-5663" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-5663" tabindex="0" hidden="hidden">
 <div class="menu" tabindex="0">
 <h5>Size Range</h5>
 <div class="menu-dropdown">
@@ -1725,10 +1706,10 @@ width: 90%;  }
 <table id="tablepress-1-no-3" class="tablepress tablepress-id-1">
 <thead>
 <tr class="row-1">
-	<th class="column-1">⌄Lot#</th>
+	<th class="column-1">⇅ Lot#</th>
 <th class="column-2"></th>
-<th class="column-3">⌄Title</th>
-<th class="column-4">⌄Size</th>
+<th class="column-3">⇅ Title</th>
+<th class="column-4">⇅ Size</th>
 </tr>
 </thead>
 <tbody class="row-hover">
@@ -2038,8 +2019,8 @@ width: 90%;  }
 <!-- #tablepress-1-no-3 from cache -->
 </div>
 </div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2124">Status</div>
-					<div id="elementor-tab-content-2124" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-2124" tabindex="0" hidden="hidden">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5664">Status</div>
+					<div id="elementor-tab-content-5664" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-5664" tabindex="0" hidden="hidden">
 <div class="menu" tabindex="0">
 <h5>Availability</h5>
 <div class="menu-dropdown">
@@ -2051,10 +2032,10 @@ width: 90%;  }
 <table id="tablepress-1-no-4" class="tablepress tablepress-id-1">
 <thead>
 <tr class="row-1">
-	<th class="column-1">⌄Lot#</th>
+	<th class="column-1">⇅ Lot#</th>
 <th class="column-2"></th>
-<th class="column-3">⌄Title</th>
-<th class="column-4">⌄Status</th>
+<th class="column-3">⇅ Title</th>
+<th class="column-4">⇅ Status</th>
 </tr>
 </thead>
 <tbody class="row-hover">
@@ -2525,7 +2506,7 @@ width: 90%;  }
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"4472dc7969"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"5ff03d6d86"};</script>
 <script src="./../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -2538,7 +2519,7 @@ width: 90%;  }
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"dfa3fe70c7","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"ad1fa39add","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>

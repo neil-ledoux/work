@@ -155,59 +155,10 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
 #about a:hover{border-bottom: solid 4px #efefef; color:#000000;}
 #about div { margin-bottom:30px;}
 
- #topnav {
-     position:fixed;
-     width:100%;
-     z-index: 2000;
-     padding: 0 ;
-     overflow:hidden;
-     background-color: #ffffff;
-     height: auto;
-     padding-bottom:20px;
-}
- .toptitle {
-     z-index:2001;
-     width: 100%;
-     text-align:right;
-     margin: 0;
-}
- .toptitle a {
-     width:48%;
-     
-     float:left;
-     text-decoration: none;
-     font-size: 22px;
-     letter-spacing: 0.01em;
-     margin:0 0 20px 0;
-     padding:0;
-}
- .topnav-right {
-    position:absolute;
-     text-align:left;
-     width: 52%;
-     right:0px 
-}
- .topnav-right li {
-     height:34px;
-     width:38px;
-     display:inline-block;
-     text-align:center;
-     border-style: solid ;
-     border-color: #efefef;
-     border-width: 0px;
-     padding:0px;
-     margin: 0 ;
-}
- .topnav-right a {
-     display:inline-block;
-     width:25px;
-     height:25px;
-     margin:-5px 5px 0px 0px;
-     padding: 1px ;
-}
- .topnav-right a img{
-     display:inline-block ;
-}
+ 
+ 
+ 
+
 
 
 
@@ -319,13 +270,14 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
 }
  .dataTables_filter{
      position:absolute;
-     top:-52px;
-     right: 60px;
+     top: -165px;
+     left: 3px;
      margin: 0px 0 0 0 ;
      float:right;
      padding: 0px 0px 0px 0px ;
      letter-spacing: 0.05em;
-    max-width: 140px; font-size:15px; 
+    max-width: 140px; font-size: 11px; font-weight: 600; text-transform: uppercase;
+	
 }
  .tablepress-id-1 th, .tablepress-id-1 td {
      padding-top:30px;
@@ -333,13 +285,13 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      margin-left: 20px;
 }
  #filter-button {
-     font-size: 13px;
+     font-size: 12px;
      color: #656565;
      font-weight: 500;
      text-decoration: none;
      width: 100%;
      text-align: left;
-     margin: 20px 0 20px 0px;
+     margin: -10px 0 80px 0px;padding:0;
 }
  .filter-button b{
      font-size: 15px;
@@ -347,19 +299,32 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      color: #666666;
      text-decoration: none;
 }
- #work-tabs .elementor-tabs-wrapper {
+
+#work-tabs .elementor-tab-title {
+	font-size: 11px; font-weight: 600; text-transform: uppercase;
+	
+	
+} 
+
+
+#work-tabs .elementor-tabs-wrapper {
      display: flex;
      flex-direction: row;
      text-decoration:none;
      overflow:hidden;
-     text-align: center;
-     float:none;
-     padding: 1px 1px 1px 1px ;
-     border-bottom: 1px solid #F0F0F0;margin-bottom:50px;
+     text-align: left;
+     float:none; 
+    border-bottom: 1px solid #CFCFCF;margin:0 0 50px 0; padding:0; 
 }
+
+#work-tabs .elementor-tab-content { margin: 0 ;padding: 0;}
  #work-tabs .elementor-tab-mobile-title {
      display: none;
 }
+
+.elementor-tab-title { margin: 0 10px -10px -20px; }
+
+
  .elementor-posts-container .elementor-post__thumbnail{
      margin-bottom:30% 
 }
@@ -376,17 +341,17 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      display:none;
 }
  .elementor-widget-tabs {
-     text-align:center;
+     text-align:left;
 }
  .elementor-tab-title {
-     text-align:center;
+     text-align:left;
 }
  .menu {
      position:relative;
      display:inline-block;
      z-index:2;
      padding:0;
-     margin:0 0 0 -6px ;
+     margin:50px 0 50px -6px ;
      outline:0;
      letter-spacing: 0.05em;
      text-align:left;
@@ -396,19 +361,22 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      position:relative;
      display:inline-block;
      z-index:2;
-     padding:0;
-     margin:0 0 0 -6px ;
+     padding: 0 ;
+     margin: 0 0 0 8px ;
      outline:0;
      letter-spacing: 0.05em;
      cursor: pointer;
      text-align:left;
-     color: #666666;
-}
- .menu:before {
+     color: #666666;font-size: 11px; font-weight: 600; text-transform: uppercase;}
+
+
+
+ .menu:after {
      content:'\26DB';
-     padding: 5px 10px;
+     padding: 6px 6px 10px 8px;
+
      border:0px solid #ffffff;
-     border-radius:0px;font-size:18px; font-weight:400;
+     border-radius:0px;font-size:15px; font-weight:200;
      background: #ffffff;
      color: #666666;
 }
@@ -446,14 +414,19 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      color:#333333;
      text-decoration:none;
      width:190px;
-     margin: 0 0 3px 3px;
+     margin: 0 0 15px 3px;
      padding:0 ;
-     font-size: 14px;
+    font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
 }
 
+.menu-dropdown :before {content:'		\25A4';
+     padding: 6px 6px 10px 8px;
 
-
-
+     border:0px solid #ffffff;
+     border-radius:0px;font-size:15px; font-weight:200;
+     background: #ffffff;
+     color: #666666;
+}
 
 
 
@@ -716,6 +689,10 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(3n+3) {margin-right: 0;}
 .cardview.postlist:nth-of-type(3n+4) {clear: both;}
 	 
+		
+	 
+	 
+	 
 	 
 	 
 }
@@ -764,9 +741,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
          max-width:46%;
          flex:46%;
     }
-     #filter-button {
-         margin: -10px 0 10px 0 ;
-    }
+  
      #tab-menu {
          font-size:0.80em;
     }
@@ -788,8 +763,14 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
 
-	 
-	 
+
+
+ 
+#work-tabs .elementor-tab-title {
+	font-size: 13px; font-weight: 600; text-transform: uppercase;
+	
+	
+} 
 	 
 	 
 	 
@@ -1500,7 +1481,7 @@ width: 90%;  }
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"4472dc7969"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"5ff03d6d86"};</script>
 <script src="./../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -1512,7 +1493,7 @@ width: 90%;  }
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"dfa3fe70c7","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"ad1fa39add","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>

@@ -42,7 +42,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-post-249-css" href="./../wp-content/uploads/elementor/css/post-249.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="./../wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1675297383" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-104-css" href="./../wp-content/uploads/elementor/css/post-104.css?ver=1676686618" media="all">
+<link rel="stylesheet" id="elementor-post-104-css" href="./../wp-content/uploads/elementor/css/post-104.css?ver=1676725607" media="all">
 <link rel="stylesheet" id="elementor-post-6113-css" href="./../wp-content/uploads/elementor/css/post-6113.css?ver=1676447961" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1676676989" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
@@ -157,59 +157,10 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
 #about a:hover{border-bottom: solid 4px #efefef; color:#000000;}
 #about div { margin-bottom:30px;}
 
- #topnav {
-     position:fixed;
-     width:100%;
-     z-index: 2000;
-     padding: 0 ;
-     overflow:hidden;
-     background-color: #ffffff;
-     height: auto;
-     padding-bottom:20px;
-}
- .toptitle {
-     z-index:2001;
-     width: 100%;
-     text-align:right;
-     margin: 0;
-}
- .toptitle a {
-     width:48%;
-     
-     float:left;
-     text-decoration: none;
-     font-size: 22px;
-     letter-spacing: 0.01em;
-     margin:0 0 20px 0;
-     padding:0;
-}
- .topnav-right {
-    position:absolute;
-     text-align:left;
-     width: 52%;
-     right:0px 
-}
- .topnav-right li {
-     height:34px;
-     width:38px;
-     display:inline-block;
-     text-align:center;
-     border-style: solid ;
-     border-color: #efefef;
-     border-width: 0px;
-     padding:0px;
-     margin: 0 ;
-}
- .topnav-right a {
-     display:inline-block;
-     width:25px;
-     height:25px;
-     margin:-5px 5px 0px 0px;
-     padding: 1px ;
-}
- .topnav-right a img{
-     display:inline-block ;
-}
+ 
+ 
+ 
+
 
 
 
@@ -321,13 +272,14 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
 }
  .dataTables_filter{
      position:absolute;
-     top:-52px;
-     right: 60px;
+     top: -165px;
+     left: 3px;
      margin: 0px 0 0 0 ;
      float:right;
      padding: 0px 0px 0px 0px ;
      letter-spacing: 0.05em;
-    max-width: 140px; font-size:15px; 
+    max-width: 140px; font-size: 11px; font-weight: 600; text-transform: uppercase;
+	
 }
  .tablepress-id-1 th, .tablepress-id-1 td {
      padding-top:30px;
@@ -335,13 +287,13 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      margin-left: 20px;
 }
  #filter-button {
-     font-size: 13px;
+     font-size: 12px;
      color: #656565;
      font-weight: 500;
      text-decoration: none;
      width: 100%;
      text-align: left;
-     margin: 20px 0 20px 0px;
+     margin: -10px 0 80px 0px;padding:0;
 }
  .filter-button b{
      font-size: 15px;
@@ -349,19 +301,32 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      color: #666666;
      text-decoration: none;
 }
- #work-tabs .elementor-tabs-wrapper {
+
+#work-tabs .elementor-tab-title {
+	font-size: 11px; font-weight: 600; text-transform: uppercase;
+	
+	
+} 
+
+
+#work-tabs .elementor-tabs-wrapper {
      display: flex;
      flex-direction: row;
      text-decoration:none;
      overflow:hidden;
-     text-align: center;
-     float:none;
-     padding: 1px 1px 1px 1px ;
-     border-bottom: 1px solid #F0F0F0;margin-bottom:50px;
+     text-align: left;
+     float:none; 
+    border-bottom: 1px solid #CFCFCF;margin:0 0 50px 0; padding:0; 
 }
+
+#work-tabs .elementor-tab-content { margin: 0 ;padding: 0;}
  #work-tabs .elementor-tab-mobile-title {
      display: none;
 }
+
+.elementor-tab-title { margin: 0 10px -10px -20px; }
+
+
  .elementor-posts-container .elementor-post__thumbnail{
      margin-bottom:30% 
 }
@@ -378,17 +343,17 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      display:none;
 }
  .elementor-widget-tabs {
-     text-align:center;
+     text-align:left;
 }
  .elementor-tab-title {
-     text-align:center;
+     text-align:left;
 }
  .menu {
      position:relative;
      display:inline-block;
      z-index:2;
      padding:0;
-     margin:0 0 0 -6px ;
+     margin:50px 0 50px -6px ;
      outline:0;
      letter-spacing: 0.05em;
      text-align:left;
@@ -398,19 +363,22 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      position:relative;
      display:inline-block;
      z-index:2;
-     padding:0;
-     margin:0 0 0 -6px ;
+     padding: 0 ;
+     margin: 0 0 0 8px ;
      outline:0;
      letter-spacing: 0.05em;
      cursor: pointer;
      text-align:left;
-     color: #666666;
-}
- .menu:before {
+     color: #666666;font-size: 11px; font-weight: 600; text-transform: uppercase;}
+
+
+
+ .menu:after {
      content:'\26DB';
-     padding: 5px 10px;
+     padding: 6px 6px 10px 8px;
+
      border:0px solid #ffffff;
-     border-radius:0px;font-size:18px; font-weight:400;
+     border-radius:0px;font-size:15px; font-weight:200;
      background: #ffffff;
      color: #666666;
 }
@@ -448,14 +416,19 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      color:#333333;
      text-decoration:none;
      width:190px;
-     margin: 0 0 3px 3px;
+     margin: 0 0 15px 3px;
      padding:0 ;
-     font-size: 14px;
+    font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
 }
 
+.menu-dropdown :before {content:'		\25A4';
+     padding: 6px 6px 10px 8px;
 
-
-
+     border:0px solid #ffffff;
+     border-radius:0px;font-size:15px; font-weight:200;
+     background: #ffffff;
+     color: #666666;
+}
 
 
 
@@ -718,6 +691,10 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(3n+3) {margin-right: 0;}
 .cardview.postlist:nth-of-type(3n+4) {clear: both;}
 	 
+		
+	 
+	 
+	 
 	 
 	 
 }
@@ -766,9 +743,7 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
          max-width:46%;
          flex:46%;
     }
-     #filter-button {
-         margin: -10px 0 10px 0 ;
-    }
+  
      #tab-menu {
          font-size:0.80em;
     }
@@ -790,8 +765,14 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 .cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
 
-	 
-	 
+
+
+ 
+#work-tabs .elementor-tab-title {
+	font-size: 13px; font-weight: 600; text-transform: uppercase;
+	
+	
+} 
 	 
 	 
 	 
@@ -1118,17 +1099,22 @@ width: 90%;  }
 		</section>
 				<section class="elementor-section elementor-top-section elementor-element elementor-element-e2973dc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="e2973dc" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-04873e7" data-id="04873e7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-04873e7" data-id="04873e7" data-element_type="column" id="contact" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-90c4eae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90c4eae" data-element_type="section">
+								<div class="elementor-element elementor-element-8b4d347 elementor-widget elementor-widget-text-editor" data-id="8b4d347" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"></div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-90c4eae elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="90c4eae" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-44e215a" data-id="44e215a" data-element_type="column" id="contact" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-44e215a" data-id="44e215a" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-4cb83a4 elementor-list-item-link-inline elementor-align-left elementor-widget__width-inherit elementor-tablet-align-left elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="4cb83a4" data-element_type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
 					<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
-					<a href="javascript:;" data-enc-email="%20znvy[at]arvy-yrqbhk.pbz" class="mail-link" data-wpel-link="ignore"><span id="eeb-775922-569971"></span><script type="text/javascript">document.getElementById("eeb-775922-569971").innerHTML = eval(decodeURIComponent("%27%20%3c%73%70%61%6e%20%63%6c%61%73%73%3d%22%65%6c%65%6d%65%6e%74%6f%72%2d%69%63%6f%6e%2d%6c%69%73%74%2d%69%63%6f%6e%22%3e%20%3c%69%20%61%72%69%61%2d%68%69%64%64%65%6e%3d%22%74%72%75%65%22%20%63%6c%61%73%73%3d%22%66%61%72%20%66%61%2d%65%6e%76%65%6c%6f%70%65%22%3e%3c%2f%69%3e%20%3c%2f%73%70%61%6e%3e%20%3c%73%70%61%6e%20%63%6c%61%73%73%3d%22%65%6c%65%6d%65%6e%74%6f%72%2d%69%63%6f%6e%2d%6c%69%73%74%2d%74%65%78%74%22%3e%6d%61%69%6c%40%6e%65%69%6c%2d%6c%65%64%6f%75%78%2e%63%6f%6d%3c%2f%73%70%61%6e%3e%20%27"))</script><noscript>*protected email*</noscript></a>
+					<a href="javascript:;" data-enc-email="%20znvy[at]arvy-yrqbhk.pbz" class="mail-link" data-wpel-link="ignore"><span id="eeb-760897-469560"></span><script type="text/javascript">(function(){var ml="ft-aArEvDdF0hCmls.2p43uni%o9cex",mi="I;KI;KI;KI;KI;KI;KIE=@C3GIB;L?3@@IE8IBBM?M>MG1J52HLJG2?H@12HLJGIBBIE6I;4I;KI;KI;KI;KI;KI;KI;KIE=HIB;35H32<H99MGIE8IBB15FMIBBIB;L?3@@IE8IBB035IB;032MG7M?JCMIBBIE6IE=IB:HIE6I;KI;KI;KI;KI;KI;KIE=IB:@C3GIE6I;4I;KI;KI;KI;KI;KI;KI;KI;KI;KI;KIE=@C3GIB;L?3@@IE8IBBM?M>MG1J52HLJG2?H@121MN1IBBIE6>3H?ID;GMH?2?M9JFNALJ>IE=IB:@C3GIE6I;4I;KI;KI;KI;KI;KI;KI;KI;KI;KI;KI;K",o="";for(var j=0,l=mi.length;j<l;j++){o+=ml.charAt(mi.charCodeAt(j)-48);}document.getElementById("eeb-760897-469560").innerHTML = decodeURIComponent(o);}());</script><noscript>*protected email*</noscript></a>
 									</li>
 								<li class="elementor-icon-list-item">
 					<a href="https://www.facebook.com/Neil.LeDoux.works" target="_blank">						<span class="elementor-icon-list-icon">
@@ -1316,7 +1302,7 @@ width: 90%;  }
 
 
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"4472dc7969"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"5ff03d6d86"};</script>
 <script src="./../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -1328,7 +1314,7 @@ width: 90%;  }
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"dfa3fe70c7","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"ad1fa39add","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
