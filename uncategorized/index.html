@@ -39,13 +39,13 @@ img.emoji {
 <link rel="stylesheet" id="wpbf-responsive-css" href="./../../wp-content/themes/page-builder-framework/css/min/responsive-min.css?ver=2.10.2" media="all">
 <link rel="stylesheet" id="elementor-icons-css" href="./../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.10.0" media="all">
 <link rel="stylesheet" id="elementor-animations-css" href="./../../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.1" media="all">
-<link rel="stylesheet" id="elementor-frontend-css" href="./../../wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-249-css" href="./../../wp-content/uploads/elementor/css/post-249.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-pro-css" href="./../../wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-global-css" href="./../../wp-content/uploads/elementor/css/global.css?ver=1675297383" media="all">
-<link rel="stylesheet" id="elementor-post-6113-css" href="./../../wp-content/uploads/elementor/css/post-6113.css?ver=1676447961" media="all">
-<link rel="stylesheet" id="elementor-post-3327-css" href="./../../wp-content/uploads/elementor/css/post-3327.css?ver=1676747303" media="all">
-<link rel="stylesheet" id="elementor-post-3460-css" href="./../../wp-content/uploads/elementor/css/post-3460.css?ver=1675835760" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="./../../wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1677185476" media="all">
+<link rel="stylesheet" id="elementor-post-249-css" href="./../../wp-content/uploads/elementor/css/post-249.css?ver=1677185476" media="all">
+<link rel="stylesheet" id="elementor-pro-css" href="./../../wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1677185476" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="./../../wp-content/uploads/elementor/css/global.css?ver=1677185476" media="all">
+<link rel="stylesheet" id="elementor-post-6113-css" href="./../../wp-content/uploads/elementor/css/post-6113.css?ver=1677185476" media="all">
+<link rel="stylesheet" id="elementor-post-3327-css" href="./../../wp-content/uploads/elementor/css/post-3327.css?ver=1677185476" media="all">
+<link rel="stylesheet" id="elementor-post-3460-css" href="./../../wp-content/uploads/elementor/css/post-3460.css?ver=1677209649" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
 <script src="./../../wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="./../../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -62,6 +62,9 @@ img.emoji {
  #main{
      margin-top:100px;
 }
+
+
+p{ font-size: 15px;}
  h1.entry-title{
      display:none;
 }
@@ -138,6 +141,13 @@ padding: 0 ; width:280px;
   background: #ffffff;
   
 } 
+
+ul {
+    list-style-type: none;
+}
+
+
+
 
 #about {
 	
@@ -260,19 +270,19 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      padding-top:2px;
 }
  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
-     font-size:16px;
+     font-size:14px;
      border:solid 1px #666666;
-     color: #666666; max-height:18px; max-width: 140px
+     color: #666666; max-height:18px; max-width: 90px
 }
  .dataTables_filter{
      position:absolute;
-     top: -165px;
-     left: 3px;
+     top: -98px;
+     right: 70px;
      margin: 0px 0 0 0 ;
      float:right;
      padding: 0px 0px 0px 0px ;
      letter-spacing: 0.05em;
-    max-width: 140px; font-size: 11px; font-weight: 600; text-transform: uppercase;
+    max-width: 80px; font-size: 11px; font-weight: 600; text-transform: uppercase;
 	
 }
  .tablepress-id-1 th, .tablepress-id-1 td {
@@ -296,8 +306,26 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      text-decoration: none;
 }
 
+
+ #filter-button2 {
+     font-size: 12px;
+     color: #656565;
+     font-weight: 500;
+     text-decoration: none;
+     width: 100%;
+     text-align: left;
+     margin: -10px 0 0 0px;padding:0;position:absolute;
+}
+ .filter-button2 b{
+     font-size: 15px;
+     font-weight: 600;
+     color: #666666;
+     text-decoration: none;
+}
+
+
 #work-tabs .elementor-tab-title {
-	font-size: 11px; font-weight: 600; text-transform: uppercase;
+	font-size: 12px; font-weight: 600; text-transform: uppercase;
 	
 	
 } 
@@ -347,7 +375,7 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      display:inline-block;
      z-index:2;
      padding:0;
-     margin:50px 0 50px -6px ;
+     margin:0 0 48px -6px ;
      outline:0;
      letter-spacing: 0.05em;
      text-align:left;
@@ -389,8 +417,8 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
  .menu-dropdown {
      background-color: #ffffff;
      width: auto;
-     margin: 3px 0px 0 0px;
-     padding: 24px;
+     margin: 10px 0 0 0  ;
+     padding: 20px 16px 12px 10px;
      text-align:left;
      border:solid 1px #666666;
      pointer-events: auto;
@@ -401,6 +429,9 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      transition: visibility 1s;
      background: #ffffff;
 }
+
+
+
  .menu-dropdown a {
      background:transparent;
      border:none;
@@ -409,15 +440,24 @@ line-height: 1.4em; max-width: 90%; color: #444444;}
      display:block;
      color:#333333;
      text-decoration:none;
-     width:190px;
-     margin: 0 0 15px 3px;
-     padding:0 ;
+     width:200px;
+     margin: 0px 0 10px 32px;
+     padding:2px ;
     font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
 }
+ .menu-dropdown ul , .menu-dropdown li  {
+  text-decoration: none;
+     margin: 0 ;
+     padding:0 ;
+
+}
+
+
 
 .menu-dropdown :before {content:'		\25A4';
-     padding: 6px 6px 10px 8px;
-
+     padding: 6px ;
+margin: -10px 0 0 6px ;
+position:absolute;  left:0;
      border:0px solid #ffffff;
      border-radius:0px;font-size:15px; font-weight:200;
      background: #ffffff;
@@ -598,17 +638,9 @@ z-index:3004;     opacity: 0;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
+ul {
+    list-style-type: none;
+}
 
 
 
@@ -659,8 +691,77 @@ ul.lcp_paginator {padding: 0 0 20px 0!important;}
 ul.lcp_paginator:before {content: ""; display: table; clear: both;} 
 
 
+#aboutcol{  ;width: 98%; margin: 0 20px 0 26px ; 
+ ;}
+
+
+#collection2{margin-left: -20px ;max-width: 550px;}
+
+#collection2 .postlist h3 {font-size: 14px; line-height: 1.2em; margin: 3px 0 10px 0; padding-top: 0}
+#collection2 .postlist p, .postlist .morelink a {font-size: 14px; line-height: 1.4em;margin-bottom: 10px;}
+#collection2 .withthumb .lcp-container {margin-left: 132px;} 
+#collection2 .morelink {text-align: right;}
+ 
+
+
+
+
+#collection2 .postlist {
+    border: 0px
+    margin: 10px;
+    padding: 8px;
+    overflow: auto;
+}
+ 
+#collection2 .thumbmagic {
+    float: left;
+} 
+
+
+
+
+#collection2 .thumbmagic {
+  float: left; 
+  display: inline-block; 
+  position: relative;
+  overflow: hidden;
+  width: 30%; 
+  height: 30%;  
+  padding: 10px 0 250px 0;
+margin: -50px 0 0 20px;
+}
+#collection2 .thumbmagic img {
+  position: absolute;
+  left: 50%;
+  top: 50%;padding:2px;
+  border-radius: 0;
+  max-height: 80%;
+  max-width: 80%;
+/* min-width: 200px; width: auto; height: 100%; /* Use for portrait display */
+  min-height: 150px; height: auto; width: 100%; /* Use for landscape display */
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
  @media screen and (max-width: 1024px) {
   
+	 
+	 
+	 
+	 
  #nnav ul{width: 1024px; margin-left:-512px;}	
 #nnav ul li h5 a {
 	font-size:23px;  padding: 0   ; margin: 0 8px 0 3px;   }
@@ -688,6 +789,12 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 		
 	 
 	 
+ 
+	 
+	 
+	 
+	 
+	 
 	 
 	 
 	 
@@ -695,7 +802,19 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
  @media screen and (max-width: 768px) {
 	 
 	 
-	 
+	
+#collection2 .thumbmagic {
+  float: left; 
+  display: inline-block; 
+  position: relative;
+  overflow: hidden;
+  width: 42%; 
+  height: 42%;  
+  padding: 10px 0 250px 0;
+margin: -52px 0 40px 20px;
+}
+
+ 
 	 
 	 #nnav ul{width: 768px; margin-left:-384px;}	
 #nnav ul li h5 a {
@@ -761,6 +880,14 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
 
 
 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
  
 #work-tabs .elementor-tab-title {
 	font-size: 13px; font-weight: 600; text-transform: uppercase;
@@ -1180,7 +1307,7 @@ width: 90%;  }
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"ec871800dd"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"513475270a"};</script>
 <script src="./../../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -1192,7 +1319,7 @@ width: 90%;  }
 <script src="./../../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"073ae9b239","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"b7ae976dbd","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
