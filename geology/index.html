@@ -45,7 +45,7 @@ img.emoji {
 <link rel="stylesheet" id="elementor-post-7025-css" href="./../wp-content/uploads/elementor/css/post-7025.css?ver=1677185476" media="all">
 <link rel="stylesheet" id="elementor-post-6113-css" href="./../wp-content/uploads/elementor/css/post-6113.css?ver=1677185476" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1677185476" media="all">
-<link rel="stylesheet" id="elementor-post-7249-css" href="./../wp-content/uploads/elementor/css/post-7249.css?ver=1677209314" media="all">
+<link rel="stylesheet" id="elementor-post-7249-css" href="./../wp-content/uploads/elementor/css/post-7249.css?ver=1677274739" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
 <script src="./../wp-includes/js/jquery/jquery.min.js?ver=3.6.1" id="jquery-core-js"></script>
 <script src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
@@ -664,26 +664,40 @@ ul {
     clear: both;
 }
  .cardview a {
-     font-size:14px;
+     font-size:0.90em;
      font-family: helvetica;
-     font-weight:500;
+     font-weight:400;
      margin: 0 0 0 0 ;
 }
  .cardview p {
      font-size:12px;
      font-family: helvetica;
      font-weight:400;
-     line-height: 1.4em;
-     margin: 2px 0 0 0 ;
+     line-height: 1.2em;
+     margin: 2px 0 4px 0 ;
 }
  .cardview h3 {
-     font-size:14px;
+     font-size:13px;
      font-family: helvetica;
      font-weight:400;
-     line-height: 1.4em;
-     margin: 5px 0 3px 0 ;
-}
- .lcp-customfield {
+     line-height: 1.2em;
+	 margin: 5px 0 3px 0 ;}
+
+
+#single-works .cardview {
+     max-width: 140px;}
+
+#series-works .cardview {
+     max-width: 180px;}
+
+#series-works .cardview h3{
+  font-size: 1.39em }
+
+
+#collection-works .cardview {
+     max-width: 160px;}
+#collection-works .cardview h3{
+  font-size: 1.34em } .lcp-customfield {
     font-size:12px;
      margin: 0 0 0 0;
      line-height: 1.2em
@@ -695,19 +709,23 @@ ul.lcp_paginator {padding: 0 0 20px 0!important;}
 ul.lcp_paginator:before {content: ""; display: table; clear: both;} 
 
 
-#aboutcol{  ;width: 98%; margin: 0 20px 0 26px ; 
+#aboutcol{  ;width: 98%; margin: 0 10px 0 26px ; 
  ;}
 
 
-#collection2{margin-left: -20px ;max-width: 550px;}
+#collection2{margin-left: -20px ; }
 
-#collection2 .postlist h3 {font-size: 14px; line-height: 1.2em; margin: 3px 0 10px 0; padding-top: 0}
+#collection2 .postlist h3 {font-size: 12px; line-height: 1.2em; margin: 3px 0 12px 0; padding-top: 0}
 #collection2 .postlist p, .postlist .morelink a {font-size: 14px; line-height: 1.4em;margin-bottom: 10px;}
 #collection2 .withthumb .lcp-container {margin-left: 132px;} 
-#collection2 .morelink {text-align: right;}
- 
+#collection2 .morelink  {  margin: 12px 0 0 0; ; z-index: 1000;font-size: 13px; line-height: 1.4em;margin-bottom: 10px; font-weight: 600; left: 0px}
+#collection2 .morelink a{ font-size: 0.9em;}
 
-
+#collection2 .lcp-customfield {
+    font-size: 13px;
+    margin: 0 0 0 0;
+    line-height: 1.2em; max-width: 290px
+}
 
 
 #collection2 .postlist {
@@ -732,17 +750,17 @@ ul.lcp_paginator:before {content: ""; display: table; clear: both;}
   width: 30%; 
   height: 30%;  
   padding: 10px 0 250px 0;
-margin: -50px 0 0 20px;
+margin: -40px 0 0 20px;
 }
 #collection2 .thumbmagic img {
   position: absolute;
   left: 50%;
-  top: 50%;padding:2px;
+  top: 50%;
   border-radius: 0;
-  max-height: 80%;
-  max-width: 80%;
-/* min-width: 200px; width: auto; height: 100%; /* Use for portrait display */
-  min-height: 150px; height: auto; width: 100%; /* Use for landscape display */
+  padding: 0 22px 22px 0;
+max-width: 130px; max-height:auto;
+/*min-width: 150px; width: auto; height: 100%;  */
+ /* min-height: 150px; height: auto; width: 100%; /* Use for landscape display */
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
@@ -1163,8 +1181,7 @@ width: 90%;  }
 					<div id="elementor-tab-content-1011" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-1011" tabindex="0" hidden="false">
 <div class="menu" tabindex="0">
 <h5>10 Collections</h5>
-<div class="menu-dropdown">
-<ul class="lcp_catlist" id="lcp_instance_0">
+<div class="menu-dropdown"><ul class="lcp_catlist" id="lcp_instance_0">
 <li><a href="./../shoreline/index.html">Shoreline</a></li>
 <li><a href="./../woodland/index.html">Woodland</a></li>
 <li><a href="./../nightfall/index.html">Nightfall</a></li>
@@ -1175,11 +1192,9 @@ width: 90%;  }
 <li><a href="./../nighttide/index.html">Nighttide</a></li>
 <li><a href="./../highway/index.html">Highway</a></li>
 <li><a href="./../walkway/index.html">Walkway</a></li>
-</ul>
-
+</ul></div>
 </div>
-</div>
-<div><div class="postlist withthumb cardview">
+<div id="single-works"><div class="postlist withthumb cardview">
 <span class="thumbmagic"><a href="./../singular-work-geology/index.html" title="Singular Work Geology"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Singular Work Geology" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
 <h3><a href="./../singular-work-geology/index.html">Singular Work Geology</a></h3>  <div class="lcp-customfield">2022</div>
 <div class="lcp-customfield">Oil on Canvas</div>
@@ -1194,15 +1209,7 @@ width: 90%;  }
 		</div>
 				</div>
 				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-8efb10f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8efb10f" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-631b77b" data-id="631b77b" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-5a961a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a961a2" data-element_type="section" id="aboutcol">
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5a961a2 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5a961a2" data-element_type="section" id="aboutcol">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-1f7bbb6" data-id="1f7bbb6" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -1213,64 +1220,62 @@ width: 90%;  }
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-c214dd0" data-id="c214dd0" data-element_type="column" id="collection2">
+				<div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-2bc9721" data-id="2bc9721" data-element_type="column" id="collection2">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-44b2475 elementor-widget elementor-widget-text-editor" data-id="44b2475" data-element_type="widget" id="work-tabs" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-d6d5438 elementor-widget elementor-widget-text-editor" data-id="d6d5438" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><div>
-
 <div class="postlist withthumb">
-<span class="thumbmagic"></span><div class="lcp-container">
-<h3><a href="./../shoreline/index.html">Shoreline</a></h3>  <div class="morelink"></div>
+<span class="thumbmagic"><a href="./../shoreline/index.html" title="Shoreline"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Shoreline" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
+<h3><a href="./../shoreline/index.html">Shoreline</a></h3>  <div class="morelink"><a href="./../shoreline/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../woodland/index.html" title="Woodland"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Woodland" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../woodland/index.html">Woodland</a></h3>  <div class="morelink"></div>
+<h3><a href="./../woodland/index.html">Woodland</a></h3>  <div class="morelink"><a href="./../woodland/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../nightfall/index.html" title="Nightfall"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Nightfall" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../nightfall/index.html">Nightfall</a></h3>  <div class="morelink"></div>
+<h3><a href="./../nightfall/index.html">Nightfall</a></h3>  <div class="morelink"><a href="./../nightfall/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../clearing/index.html" title="Clearing"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Clearing" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../clearing/index.html">Clearing</a></h3>  <div class="lcp-customfield">The &#8220;Clearing&#8221; collection is a group of paintings that explore the concept of openness.</div>
-<div class="morelink"></div>
+<h3><a href="./../clearing/index.html">Clearing</a></h3>  <div class="lcp-customfield">The &#8220;Clearing&#8221; collection explores the concept of openness.</div>
+<div class="morelink"><a href="./../clearing/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../sand-and-stone/index.html" title="Sand and Stone"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Sand and Stone" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../sand-and-stone/index.html">Sand and Stone</a></h3>  <div class="morelink"></div>
+<h3><a href="./../sand-and-stone/index.html">Sand and Stone</a></h3>  <div class="morelink"><a href="./../sand-and-stone/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../tundra/index.html" title="Tundra"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Tundra" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../tundra/index.html">Tundra</a></h3>  <div class="morelink"></div>
+<h3><a href="./../tundra/index.html">Tundra</a></h3>  <div class="morelink"><a href="./../tundra/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../tropics/index.html" title="Tropics"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Tropics" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../tropics/index.html">Tropics</a></h3>  <div class="morelink"></div>
+<h3><a href="./../tropics/index.html">Tropics</a></h3>  <div class="morelink"><a href="./../tropics/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../nighttide/index.html" title="Nighttide"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Nighttide" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../nighttide/index.html">Nighttide</a></h3>  <div class="morelink"></div>
+<h3><a href="./../nighttide/index.html">Nighttide</a></h3>  <div class="morelink"><a href="./../nighttide/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../highway/index.html" title="Highway"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Highway" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../highway/index.html">Highway</a></h3>  <div class="morelink"></div>
+<h3><a href="./../highway/index.html">Highway</a></h3>  <div class="morelink"><a href="./../highway/index.html">View Collection</a></div>
 </div>
 </div>
 <div class="postlist withthumb">
 <span class="thumbmagic"><a href="./../walkway/index.html" title="Walkway"><img width="233" height="300" src="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg" class="lcp_thumbnail wp-post-image" alt="Walkway" decoding="async" loading="lazy" srcset="./../wp-content/uploads/2023/02/singularwork1geology-233x300.jpg 233w, ./../wp-content/uploads/2023/02/singularwork1geology.jpg 700w" sizes="(max-width: 233px) 100vw, 233px"></a></span><div class="lcp-container">
-<h3><a href="./../walkway/index.html">Walkway</a></h3>  <div class="morelink"></div>
+<h3><a href="./../walkway/index.html">Walkway</a></h3>  <div class="morelink"><a href="./../walkway/index.html">View Collection</a></div>
 </div>
 </div>
-
 </div></div>
 				</div>
 				</div>
@@ -1279,6 +1284,14 @@ width: 90%;  }
 							</div>
 		</section>
 					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-8efb10f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="8efb10f" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-631b77b" data-id="631b77b" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
 		</div>
 							</div>
 		</section>
@@ -1388,7 +1401,7 @@ width: 90%;  }
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"513475270a"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"8be77c2192"};</script>
 <script src="./../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -1400,7 +1413,7 @@ width: 90%;  }
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"b7ae976dbd","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"c9f5a57618","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
