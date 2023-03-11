@@ -39,10 +39,11 @@ img.emoji {
 <link rel="stylesheet" id="elementor-icons-css" href="./../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.10.0" media="all">
 <link rel="stylesheet" id="elementor-animations-css" href="./../wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.1.1" media="all">
 <link rel="stylesheet" id="elementor-frontend-css" href="./../wp-content/uploads/elementor/css/custom-frontend.min.css?ver=1677679186" media="all">
+<style id="elementor-frontend-inline-css">.elementor-8759 .elementor-element.elementor-element-072d345:not(.elementor-motion-effects-element-type-background), .elementor-8759 .elementor-element.elementor-element-072d345 > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("./../wp-content/uploads/2023/02/series1.jpg");}</style>
 <link rel="stylesheet" id="elementor-post-249-css" href="./../wp-content/uploads/elementor/css/post-249.css?ver=1677679186" media="all">
 <link rel="stylesheet" id="elementor-pro-css" href="./../wp-content/uploads/elementor/css/custom-pro-frontend.min.css?ver=1677679186" media="all">
 <link rel="stylesheet" id="elementor-global-css" href="./../wp-content/uploads/elementor/css/global.css?ver=1677679186" media="all">
-<link rel="stylesheet" id="elementor-post-3919-css" href="./../wp-content/uploads/elementor/css/post-3919.css?ver=1677699588" media="all">
+<link rel="stylesheet" id="elementor-post-8759-css" href="./../wp-content/uploads/elementor/css/post-8759.css?ver=1677889646" media="all">
 <link rel="stylesheet" id="elementor-post-6113-css" href="./../wp-content/uploads/elementor/css/post-6113.css?ver=1677679186" media="all">
 <link rel="stylesheet" id="elementor-post-3327-css" href="./../wp-content/uploads/elementor/css/post-3327.css?ver=1677679186" media="all">
 <link rel="stylesheet" id="tablepress-default-css" href="./../wp-content/plugins/tablepress/css/build/default.css?ver=2.0.4" media="all">
@@ -50,12 +51,12 @@ img.emoji {
 <script src="./../wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2" id="jquery-migrate-js"></script>
 <script src="./../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/custom.js?ver=230217-63951" id="eeb-js-frontend-js"></script>
 <link rel="https://api.w.org/" href="./../wp-json/index.html">
-<link rel="alternate" type="application/json" href="./../wp-json/wp/v2/pages/3919/index.html">
+<link rel="alternate" type="application/json" href="./../wp-json/wp/v2/pages/8759/index.html">
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="./../xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="./../wp-includes/wlwmanifest.xml">
 <meta name="generator" content="WordPress 6.1.1">
 <link rel="canonical" href="./index.html">
-<link rel="shortlink" href="./../index.html?p=3919">
+<link rel="shortlink" href="./../index.html?p=8759">
 <link rel="alternate" type="application/json+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2F%2Fcatalog%2F">
 <link rel="alternate" type="text/xml+oembed" href="./../wp-json/oembed/1.0/embed/index.html?url=.%2F%2Fcatalog%2F#038;format=xml">
 		<style id="wp-custom-css">html {
@@ -63,6 +64,27 @@ img.emoji {
      scroll-padding-top: 7em;
 }
  #main{margin:100px 20px 0 20px ;
+}
+
+.cover{
+
+object-fit: cover;
+
+width: 90%;
+
+margin:0 0 0 -10px ; padding: 0;
+
+height: 90%;
+
+}
+
+
+
+.hidemapbar {
+  position: relative;
+  clip-path: polygon(0% 12%, 100% 12%, 100% 100%, 0% 100%);
+  top: -1em;
+  border: inherit;
 }
 
 
@@ -149,25 +171,37 @@ ul {
 }
 
 
+
+#2ndheader {}
+
 #singleworkinfo{ margin: 0 auto 0 auto; width:200px; padding: 10px 5px 40px 5px; height:auto;   border: 0px solid; position:absolute; top:190px}
 
 
-
+a.tablink {
+  display: inline-block;
+  position: relative;
+  z-index: 1995;
+  padding: 2em;
+  margin: -2em;
+}
 
 
 #seriesinfo2{display:none;}
 
 
-#single_desktop{ position:fixed; left:-30px }
+#single_desktop{ position:fixed; left:-30px; padding: 4px 0 0 0 ; }
 
-#singleworkimg { margin: 0 auto 0 auto ;width:540px; padding:0 0 0 70px; height:auto ;  }
-
-#singleworkimg img{ margin: 90px auto 20px auto ;width:auto; padding:20px; height: 520px!important;  }
-
-#singleworkheader{}
+#single_desktop2{ position:fixed; right:-138px; text-align:left; margin: 5px 0 0 0;}
 
 
+#single_desktop2 img{ height: 22px; width: 22px;  position:absolute; left:60px; margin: -3px 0 0 0 ;}
 
+#singleworkimg { margin: 0 auto 0 auto ;width:540px!important; padding:0 0 0 70px; height:auto ;  }
+
+#singleworkimg img{ margin: 20% auto 10px auto ;width:90%; padding:20px; height: 90%!important;  }
+
+
+#singleworkframe{ margin-top: 2%!important;padding-top:0%!important;}
 
 
 
@@ -177,7 +211,7 @@ ul {
 	margin:20px 4px 20px 4px; min-width: 230px; overflow:hidden;
 	
 }
-#about p{ 
+#cv1 p{ 
  max-width: 90%; color: #444444;}
 #about p strong { margin-top: 20px; font-weight: 600;}
 #about a {color: #888888;   }
@@ -206,6 +240,21 @@ a.contact2 {
 
 
 #nextprevinner{  margin: -10px 0 0 0 ;}
+
+#nextprevcollection{position:absolute; margin:  -42px 0 0 0  ; right: 4%; width: 218px; height: 80px; padding: 0 0 0 0 ;overflow:visible; z-index:1888}
+
+
+
+#nextprevcollection .post-navigation__next--label{
+margin-right:40px; background: none; 
+	
+	
+}
+#nextprevcollection .post-navigation__prev--label
+{margin: 0 0 0 40px;  background: none;
+	
+	
+}
 
 
 .post-navigation__next--label{
@@ -300,7 +349,7 @@ margin-right:40px; background: #ffffff;
      display:none;
 }
  .tablepress .sorting:hover, .tablepress .sorting_asc, .tablepress .sorting_desc {
-     background-color:#ffffff;
+     background-color:ffffff;
 }
  .dataTables_filter {
      font-size:15px;
@@ -311,18 +360,18 @@ margin-right:40px; background: #ffffff;
 }
  input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="tel"], input[type="number"], textarea, select {
      font-size:12px;
-     border:solid 1px #666666;
-     color: #666666; max-height:16px; padding: 4px; max-width: 100px; margin:0 0 0 0 ;
+     border:solid 1px #333333;
+     color: #333333; max-height:20px; padding: 4px; max-width: 100px; margin:0 0 0 0 ; opacity: 0.3
 }
  .dataTables_filter{
      position:absolute;
-     top: -178px;
+     top: -250px;
      right: 140px;
      margin: 0px 0 0 0 ;
      float:left;
      padding: 0px 0px 0px 0px ;
      letter-spacing: 0.05em;
-    max-width: 80px;  text-transform: uppercase;color: #666666;font-size: 11px; font-weight: 500; text-transform: uppercase;
+    max-width: 80px;  text-transform: uppercase;color: #333333;font-size: 12px; font-weight: 500; text-transform: uppercase;
 	
 }
  .tablepress-id-1 th, .tablepress-id-1 td {
@@ -364,6 +413,25 @@ margin-right:40px; background: #ffffff;
      text-decoration: none;
 }
 
+ #workpoint {
+     
+     color: #333333;
+     font-weight: 500;
+     text-decoration: none;
+     width: 100%;
+     text-align: left; font-size: 86%;
+     margin: -168px 0 0 -20px;padding:0;position:absolute!important; text-align:right!important; 
+     
+}
+ .workpoint b{
+     
+     font-weight: 600;
+     color: #666666;
+     text-decoration: none;
+}
+
+
+
 
 #work-tabs .elementor-tab-title {
 	 font-weight: 600; text-transform: uppercase; 
@@ -385,7 +453,7 @@ margin-right:40px; background: #ffffff;
     border-top: 1px solid #666666;margin:-10px 0 0 0; padding:0; 
 }
 
-#work-tabs .elementor-tab-content { margin: 0 ;padding: 0;}
+#work-tabs .elementor-tab-content { margin: 100px 0 0 0  ;padding: 0;}
  #work-tabs .elementor-tab-mobile-title {
      display: none;
 }
@@ -427,8 +495,8 @@ margin-right:40px; background: #ffffff;
      letter-spacing: 0.05em;
     
      cursor: pointer; float: right;
-     text-align: left;
-     margin: -216px  10px 0 190px;padding:0;width: 130px;
+     text-align: right;
+     margin: -216px  16px 0 180px;padding:0;width: 170px;
 }
  .menu h5{
      position:relative;
@@ -446,7 +514,7 @@ margin-right:40px; background: #ffffff;
 
  .menu:after {
      content:'\26DB';
-     padding: 0;margin: 0 0 0 3px;
+     padding: 0;margin: 0 0 0 14px;
 
      border:0px solid #ffffff;
      border-radius:0px;font-size:15px; font-weight:200;
@@ -467,7 +535,7 @@ margin-right:40px; background: #ffffff;
      background-color: #ffffff;
      width: auto;
      margin: 47px 0 0 0  ;
-     padding: 20px 12px 12px 10px;
+     padding: 20px 22px 12px 10px;
      text-align:left;
      border:solid 1px #666666;
      pointer-events: auto;
@@ -475,7 +543,7 @@ margin-right:40px; background: #ffffff;
      z-index: 1998!important;
      opacity: 0;
      visibility: hidden;     transition: visibility 1s !important; overflow:visible!important;
-     background: #ffffff; left:-117px
+     background: #ffffff; left:-80px;
 }
 
 
@@ -490,7 +558,7 @@ margin-right:40px; background: #ffffff;
      text-decoration:none;
      width:200px;
      margin: 0px 0 10px 32px;
-     padding:2px ;font-size: 0.76rem;
+     padding:2px ;font-size: 83%;
      font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
 }
  .menu-dropdown ul , .menu-dropdown li  {
@@ -515,7 +583,7 @@ position:absolute;  left:0;
 .menutitle {padding: 0 0 80px 10px;}
 
 
-.menutitle h5{ margin: -50px 20px 120px 5px ; color: #333333; font-weight: 500; text-transform: uppercase;}
+.menutitle h5{ margin: -150px 20px 120px 5px ; color: #333333; font-weight: 500; text-transform: uppercase;}
 
 
 .menucat {
@@ -529,7 +597,7 @@ position:absolute;  left:0;
     
      cursor: pointer; float: right;
      text-align: left;
-     margin: -20px  60px 130px 0px;padding:0;
+     margin: -160px  60px 130px 0px;padding:0;
 }
  .menucat h5{
      position:relative;
@@ -541,7 +609,7 @@ position:absolute;  left:0;
      letter-spacing: 0.05em;
      cursor: pointer;
      text-align:left;
-     color: #666666; font-weight: 500; text-transform: uppercase;}
+     color: #333333; font-weight: 500; text-transform: uppercase;}
 
 
 
@@ -551,8 +619,8 @@ position:absolute;  left:0;
 
      border:0px solid #ffffff;
      border-radius:0px;font-size:15px; font-weight:200;
-     background: #ffffff;
-     color: #666666;
+     background: none;
+     color: #333333;
 }
  .menucat :hover {
      color: #111111;
@@ -567,17 +635,16 @@ position:absolute;  left:0;
  .menucat-dropdown {
      background-color: #ffffff;
      width: auto;
-     margin: 10px 0 0 0  ;
-     padding: 20px 12px 12px 10px;
+     margin: 44px 0 0 0  ;
+     padding: 20px 12px 12px 34px; 
      text-align:left;
      border:solid 1px #666666;
      pointer-events: auto;
      position: absolute;
-     z-index: 100;
+     z-index: 1998!important;
      opacity: 0;
-     visibility: hidden;
-     transition: visibility 1s;
-     background: #ffffff; left:-94px
+     visibility: hidden;     transition: visibility 1s !important; overflow:visible!important;
+     background: #ffffff; left:-110px
 }
 
 
@@ -590,12 +657,12 @@ position:absolute;  left:0;
      display:block;
      color:#333333;
      text-decoration:none;
-     width:200px;
-     margin: 0px 0 10px 32px;
-     padding:2px ;
-    font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
+     width:219px;
+     margin: 0px 0 10px 6px;
+     padding:2px ;font-size: 82%;
+     font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em;
 }
- .menucat-dropdown ul , .menucat-dropdown li  {
+ .menucat-dropdown ul , .menu-dropdown li  {
   text-decoration: none;
      margin: 0 ;
      padding:0 ;
@@ -609,10 +676,13 @@ position:absolute;  left:0;
 margin: -10px 0 0 6px ;
 position:absolute;  left:0;
      border:0px solid #ffffff;
-     border-radius:0px;font-weight:200;
+     border-radius:0px;font-size:15px; font-weight:200;
      background: #ffffff;
      color: #666666;
 }
+
+.menucattitle {padding: 0 0 80px 10px;}
+
 
 
 
@@ -802,43 +872,7 @@ ul {
 
 
 
- .cardview.postlist {
-    float: left;
-     width: 20%; 
-     margin: 0 20px 50px 10px;
-}
-
-.cardview.postlist .lcp-customfield {
-   
-     margin: 30px 5px 0 0;display:none;
-}
-
-
- .cardview a {
-     
-     font-family: helvetica;
-     font-weight:400;;
-     margin: 0 0 0 0 ;
-}
- .cardview p {
-     
-     font-family: helvetica;
-     font-weight:400;
-   
-
-}
- .cardview h3 {position:absolute;
-    
-     font-family: helvetica;
-     font-weight:400;
-     max-width: 140px;  
-	 margin: 4px 0 30px 0 ;}
- .cardview.postlist img{
-    
-    
-}
-
-
+ 
 
 
 
@@ -854,7 +888,7 @@ ul {
      max-width: 180px}
 
 #series-works .cardview h3{
-   }
+  width:80%; float:left;}
 
 
 #collection-works .cardview {
@@ -935,6 +969,18 @@ max-width: 130px; max-height:auto;
 h1.elementor-heading-title 
 {font-size: 0.8rem;}
 
+#2ndheader{height: 140px; margin: 0 -30px 0 -30px; padding: 0 0 0 0; }
+
+
+
+.cardview.postlist {padding: 0;}
+.cardview.postlist h3 {margin-top: 10px; font-weight: 500;}
+.cardview .thumbmagic {float: none; width: 100%; padding-bottom: 38%; margin-top: 0;}
+.cardview .lcp-container {margin: 0; padding: 0 0px 30px 0px;}
+
+
+.cardview.postlist, .nothumb.postlist {float: left; width: 20%; margin: 0 2% 0 2% ;}
+
 
 
 
@@ -971,14 +1017,20 @@ h1.elementor-heading-title
 	 #seriesinfo2{display:none;}	 
  
 
-	 
+ 
+
+
 	 
 	 
 }
  @media screen and (max-width: 768px) {
 	 
 	 
-	 #seriesinfo2{display:inline-block;}
+	 #seriesinfo2 {display:inline-block; margin:0 auto 0 auto; padding:0 20px 0 0; width: 500px}
+	 
+	  #seriesinfo2 h1
+	 {margin: 0 0 40px 0px;}	
+	 
 	 
 	 
 	 
@@ -996,24 +1048,31 @@ h1.elementor-heading-title
     top: -16px; right: 8px;  }
 	 
 	 
+	 #nextprevcollection{ margin-top: -44px; margin-right: 3%; max-width:113px!important;}
+	 
+	 .menu{ }
+	 
+#nextprevcollection .post-navigation__next--label
+{font-weight: 500!important;font-size: 0rem!important; margin-top: 3px; }
 	 
 	 
 	 
+#nextprevcollection .post-navigation__prev--label
+{font-weight: 500!important;font-size: 0rem!important;margin-top: 3px;}
+	 
+#nextprecollection .post-navigation__prev--label:before {
+  content: '\25C5'"\00a0 ";font-size:28px; position:absolute;
+   top: 0 left: 0;}
+
+#nextprecollection .post-navigation__next--label:after {
+  content: "\00a0 "'\25BB'; font-size:28px;position:absolute;
+    top: 0; right: 0;  }
 	 
 	 
 	 #singleworkinfo{display:none;}
 
-	 
-	 
-	 #singleworkimg{ margin: 80px auto 30px auto;width:380px; padding: 0 ; height:auto;}	
-	 
-	
-	 
-	 
+	#single_desktop2{ display:none;} 
 
-	
-	 
-	 
 	
  
 	
@@ -1076,12 +1135,7 @@ margin: -52px 0 40px 20px;
          font-size:0.80em;
     }
 	 
-	 .cardview.postlist {margin: 0 2% 60px 2%}
-
-	 
-.cardview h3 {
-     max-width: 90px; }
-
+	
 
 	 
 .elementor-7983 .elementor-element.elementor-element-392dbc60 h1.elementor-heading-title {
@@ -1091,14 +1145,47 @@ margin: -52px 0 40px 20px;
     letter-spacing: 0.2px;
 }
 
+ 
 	
 	 
+	
+	 .cardview.postlist {padding: 0;}
+.cardview.postlist h3 {margin-top: 10px; font-weight: 500;}
+.cardview .thumbmagic {float: none; width: 33%; padding-bottom: 38%; margin-top: 0; }
+.cardview .lcp-container {margin: 0; padding: 0 0 30px 0; text-align: left;}	 
+	 .cardview.postlist, .nothumb.postlist {float: left; width: 32%;}
+
+
+ 
+	 
+.thumbmagic {float: left; 
+ margin: 0 0 0 0 ; padding: 1%;}
+  .thumbmagic:empty {display: none;}
+  .withthumb .lcp-container { text-align: left;}
+		
+
+#collection2 .postlist h3 {
+   
+    padding:0 ; overflow:hidden; 
+}
+
+	 
+	 #collection2 .postlist img{ margin: 0 0 0 -20px; padding: 2px; width: 80%; height: auto;overflow: visible;}
 	 
 }
  @media screen and (max-width:342px) {
-
+		 
+	 .cardview.postlist {padding: 0;}
+.cardview.postlist h3 {margin-top: 10px; font-weight: 500;}
+.cardview .thumbmagic {float: none; width: 33%; padding-bottom: 38%; margin-top: 0; }
+.cardview .lcp-container {margin: 0; padding: 0 0 30px 0;}	 
+	 .cardview.postlist, .nothumb.postlist {float: left; width: 32%;}
+	 .thumbmagic {float: left; 
+ margin: 0 0 0 0 ; padding: 1%px}
+  .thumbmagic:empty {display: none;}
+  .withthumb .lcp-container { text-align: center;}
+	 .postlist h3 {float:left;}	 
 	 
-	  
 	 
 	 
 	 #nnav {
@@ -1255,18 +1342,14 @@ width: 90%;  }
          letter-spacing: 0.1em;
          width:auto;
     }
-	 	 .cardview.postlist {float: left; width: 100%;}
-.cardview.postlist:nth-of-type(2n+1) {margin-right: 4%;}
-.cardview.postlist:nth-of-type(2n+3) {clear: both;}
 	 
-	   
-
 	 
+			 
 }</style>
 		<style id="wpbf-typography-styles"></style>
 </head>
 
-<body class="page-template-default page page-id-3919 wpbf wpbf-boxed-layout wpbf-catalog wpbf-no-sidebar elementor-default elementor-kit-249 elementor-page elementor-page-3919 elementor-page-4656" itemscope="itemscope" itemtype="https://schema.org/WebPage">
+<body class="page-template-default page page-id-8759 wpbf wpbf-boxed-layout wpbf-catalog wpbf-no-sidebar elementor-default elementor-kit-249 elementor-page elementor-page-8759 elementor-page-4656" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
 	<a class="screen-reader-text skip-link" href="#content" title="Skip to content">Skip to content</a>
 
@@ -1330,39 +1413,53 @@ width: 90%;  }
 				
 				<h1 class="entry-title" itemprop="headline">Catalog</h1>
 				
+<div class="wpbf-page-image-wrapper">
+	<img width="700" height="900" src="./../wp-content/uploads/2023/02/series1.jpg" class="wpbf-page-image wp-post-image" alt="" decoding="async" itemprop="image" loading="lazy" srcset="./../wp-content/uploads/2023/02/series1.jpg 700w, ./../wp-content/uploads/2023/02/series1-233x300.jpg 233w" sizes="(max-width: 700px) 100vw, 700px">
+</div>
+
 				
 				<div class="entry-content" itemprop="text">
 
 					
-							<div data-elementor-type="wp-page" data-elementor-id="3919" class="elementor elementor-3919" data-elementor-settings="[]">
+							<div data-elementor-type="wp-page" data-elementor-id="8759" class="elementor elementor-8759" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
-							<section class="elementor-section elementor-top-section elementor-element elementor-element-6e9b49f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e9b49f" data-element_type="section">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-64c5995d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64c5995d" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2cc5e29" data-id="2cc5e29" data-element_type="column">
+								</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-072d345 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="072d345" data-element_type="section" id="2ndheader" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-09c0fe6" data-id="09c0fe6" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-15f1b43" data-id="15f1b43" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-132b9b9 elementor-widget elementor-widget-html" data-id="132b9b9" data-element_type="widget" data-widget_type="html.default">
+								<div class="elementor-element elementor-element-51b7d87 elementor-widget elementor-widget-text-editor" data-id="51b7d87" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-			<script>function myFunction() {
-  var x = document.getElementById("myTopcat");
-  if (x.className === "topcat") {
-    x.className += " responsive";
-  } else {
-    x.className = "topcat";
-  }
-}</script>		</div>
+					<div class="elementor-text-editor elementor-clearfix"></div>
 				</div>
-				<div class="elementor-element elementor-element-36040ad elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="36040ad" data-element_type="widget" id="work-tabs" data-widget_type="tabs.default">
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-9d89dc0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="9d89dc0" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-27d0a91" data-id="27d0a91" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-f212dd6 elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs" data-id="f212dd6" data-element_type="widget" id="work-tabs" data-widget_type="tabs.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-tabs">
 			<div class="elementor-tabs-wrapper" role="tablist">
-									<div id="elementor-tab-title-5661" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-5661">All</div>
-									<div id="elementor-tab-title-5662" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5662">Medium</div>
-									<div id="elementor-tab-title-5663" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5663">Size</div>
-									<div id="elementor-tab-title-5664" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5664">Status</div>
+									<div id="elementor-tab-title-2531" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531">All</div>
+									<div id="elementor-tab-title-2532" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532">Medium</div>
+									<div id="elementor-tab-title-2533" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533">Size</div>
+									<div id="elementor-tab-title-2534" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2534">Status</div>
 							</div>
 			<div class="elementor-tabs-content-wrapper" role="tablist" aria-orientation="vertical">
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-5661">All</div>
-					<div id="elementor-tab-content-5661" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-5661" tabindex="0" hidden="false">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531">All</div>
+					<div id="elementor-tab-content-2531" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2531" tabindex="0" hidden="false">
 <div class="menucat" tabindex="0">
 <h5>Series Title</h5>
 <div class="menucat-dropdown"><ul class="lcp_catlist" id="lcp_instance_0"><li><a href="./../geology/index.html">Geology</a></li></ul></div>
@@ -1683,8 +1780,8 @@ width: 90%;  }
 </table>
 </div>
 </div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5662">Medium</div>
-					<div id="elementor-tab-content-5662" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-5662" tabindex="0" hidden="hidden">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532">Medium</div>
+					<div id="elementor-tab-content-2532" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2532" tabindex="0" hidden="hidden">
 <div class="menucat" tabindex="0">
 <h5>Medium Type</h5>
 <div class="menucat-dropdown"><ul class="lcp_catlist" id="lcp_instance_0"><li><a href="./../geology/index.html">Geology</a></li></ul></div>
@@ -2005,8 +2102,8 @@ width: 90%;  }
 </table>
 </div>
 </div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5663">Size</div>
-					<div id="elementor-tab-content-5663" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-5663" tabindex="0" hidden="hidden">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533">Size</div>
+					<div id="elementor-tab-content-2533" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2533" tabindex="0" hidden="hidden">
 <div class="menucat" tabindex="0">
 <h5>Size Range</h5>
 <div class="menucat-dropdown">
@@ -2331,8 +2428,8 @@ width: 90%;  }
 </table>
 </div>
 </div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-5664">Status</div>
-					<div id="elementor-tab-content-5664" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-5664" tabindex="0" hidden="hidden">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2534">Status</div>
+					<div id="elementor-tab-content-2534" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-2534" tabindex="0" hidden="hidden">
 <div class="menucat" tabindex="0">
 <h5>Availability</h5>
 <div class="menucat-dropdown">
@@ -2745,18 +2842,14 @@ width: 90%;  }
 								<div class="elementor-element elementor-element-1b34107 elementor-nav-menu__align-center elementor-nav-menu--dropdown-none elementor-nav-menu--indicator-classic elementor-widget elementor-widget-nav-menu" data-id="1b34107" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;}" data-widget_type="nav-menu.default">
 				<div class="elementor-widget-container">
 						<nav role="navigation" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none"><ul id="menu-1-1b34107" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="./../about/index.html" class="elementor-item">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="./../works/index.html" class="elementor-item">Works</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3919 current_page_item menu-item-6767"><a href="./index.html" aria-current="page" class="elementor-item elementor-item-active">Catalog</a></li>
 </ul></nav>
 					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Menu Toggle" aria-expanded="false">
 			<i class="eicon-menu-bar" aria-hidden="true"></i>
 			<span class="elementor-screen-only">Menu</span>
 		</div>
 			<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" role="navigation" aria-hidden="true"><ul id="menu-2-1b34107" class="elementor-nav-menu">
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a href="./../about/index.html" class="elementor-item">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-112"><a href="./../works/index.html" class="elementor-item">Works</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3919 current_page_item menu-item-6767"><a href="./index.html" aria-current="page" class="elementor-item elementor-item-active">Catalog</a></li>
 </ul></nav>
 				</div>
 				</div>
@@ -2790,7 +2883,7 @@ width: 90%;  }
 <link rel="stylesheet" id="elementor-icons-shared-0-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-solid-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.1" media="all">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css" href="./../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.1" media="all">
-<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"84bd123e58"};</script>
+<script id="eeb-js-ajax-ef-js-extra">var eeb_ef = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","security":"0266b6fa3d"};</script>
 <script src="./../wp-content/plugins/email-encoder-bundle/core/includes/assets/js/encoder-form.js?ver=230217-63951" id="eeb-js-ajax-ef-js"></script>
 <script id="wpbf-site-js-before">var WpbfObj = {
 			ajaxurl: ".//wp-admin/admin-ajax.php"
@@ -2803,14 +2896,14 @@ width: 90%;  }
 <script src="./../wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.1.1" id="elementor-webpack-runtime-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.1.1" id="elementor-frontend-modules-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.1.0" id="elementor-sticky-js"></script>
-<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"0b23a0a23a","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
+<script id="elementor-pro-frontend-js-before">var ElementorProFrontendConfig = {"ajaxurl":".\/\/wp-admin\/admin-ajax.php","nonce":"7c9f9bb2e2","urls":{"assets":".\/\/wp-content\/plugins\/elementor-pro\/assets\/"},"i18n":{"toc_no_headings_found":"No headings were found on this page."},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"google":{"title":"Google+","has_counter":true},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":".\/\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};</script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.1.0" id="elementor-pro-frontend-js"></script>
 <script src="./../wp-includes/js/jquery/ui/core.min.js?ver=1.13.2" id="jquery-ui-core-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.8.1" id="elementor-dialog-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2" id="elementor-waypoints-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/share-link/share-link.min.js?ver=3.1.1" id="share-link-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/lib/swiper/swiper.min.js?ver=5.3.6" id="swiper-js"></script>
-<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1024,"xl":1440,"xxl":1600},"version":"3.1.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true},"urls":{"assets":".\/\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes"},"post":{"id":3919,"title":"Catalog%20%E2%80%93%20Neil%20LeDoux","excerpt":"","featuredImage":false}};</script>
+<script id="elementor-frontend-js-before">var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false,"isImprovedAssetsLoading":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1024,"xl":1440,"xxl":1600},"version":"3.1.1","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"a11y_improvements":true,"landing-pages":true},"urls":{"assets":".\/\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"editorPreferences":[]},"kit":{"global_image_lightbox":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes"},"post":{"id":8759,"title":"Catalog%20%E2%80%93%20Neil%20LeDoux","excerpt":"","featuredImage":".\/\/wp-content\/uploads\/2023\/02\/series1.jpg"}};</script>
 <script src="./../wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.1.1" id="elementor-frontend-js"></script>
 <script src="./../wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.1.0" id="pro-preloaded-elements-handlers-js"></script>
 <script src="./../wp-content/plugins/elementor/assets/js/preloaded-elements-handlers.min.js?ver=3.1.1" id="preloaded-elements-handlers-js"></script>
