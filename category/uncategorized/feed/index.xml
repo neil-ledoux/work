@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description></description>
-	<lastBuildDate>Tue, 05 Dec 2023 03:59:58 +0000</lastBuildDate>
+	<lastBuildDate>Tue, 05 Dec 2023 04:14:38 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -6862,7 +6862,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../../../index.html?page_id=9179</guid>
 
-					<description><![CDATA[BIO CV Contact BIO CV Contact At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a [&#8230;]]]></description>
+					<description><![CDATA[CV Contact CV Contact At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a classical Greek [&#8230;]]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-page" data-elementor-id="9179" class="elementor elementor-9179" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
 							<section class="elementor-section elementor-top-section elementor-element elementor-element-64c5995d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64c5995d" data-element_type="section">
@@ -6894,17 +6894,14 @@
 				<div class="elementor-widget-container">
 					<div class="elementor-tabs">
 			<div class="elementor-tabs-wrapper" role="tablist" >
-									<div id="elementor-tab-title-2531" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531"><a class="BIO" href="#BIO">BIO</a></div>
-									<div id="elementor-tab-title-2532" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532"><a class="CV" href="#CV">CV</a></div>
-									<div id="elementor-tab-title-2533" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533"><a class="contact2" href="#contact3">Contact</a></div>
+									<div id="elementor-tab-title-2531" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531"><a class="CV" href="#CV">CV</a></div>
+									<div id="elementor-tab-title-2532" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532"><a class="contact2" href="#contact3">Contact</a></div>
 							</div>
 			<div class="elementor-tabs-content-wrapper" role="tablist" aria-orientation="vertical">
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531"><a class="BIO" href="#BIO">BIO</a></div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531"><a class="CV" href="#CV">CV</a></div>
 					<div id="elementor-tab-content-2531" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2531" tabindex="0" hidden="false"></div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532"><a class="CV" href="#CV">CV</a></div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532"><a class="contact2" href="#contact3">Contact</a></div>
 					<div id="elementor-tab-content-2532" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2532" tabindex="0" hidden="hidden"></div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533"><a class="contact2" href="#contact3">Contact</a></div>
-					<div id="elementor-tab-content-2533" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2533" tabindex="0" hidden="hidden"></div>
 							</div>
 		</div>
 				</div>
@@ -6913,7 +6910,7 @@
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3fdb487 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3fdb487" data-element_type="section" id="CV">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-3fdb487 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3fdb487" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a7e155d" data-id="a7e155d" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -6935,7 +6932,7 @@
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-1fc464a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1fc464a" data-element_type="section">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-1fc464a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1fc464a" data-element_type="section" id="CV">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-dc078d8" data-id="dc078d8" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
@@ -7017,9 +7014,9 @@
 				<div class="elementor-widget-container">
 					<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
-					<a href="mailto:%2&#48;mai&#108;&#64;ne&#105;&#108;&#45;&#108;ed&#111;&#117;&#120;&#46;com">						<span class="elementor-icon-list-icon">
+					<a href="mailto:%&#50;&#48;m&#97;i&#108;&#64;&#110;e&#105;&#108;&#45;ledoux.com">						<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="far fa-envelope"></i>						</span>
-										<span class="elementor-icon-list-text">m&#97;&#105;&#108;&#64;&#110;ei&#108;&#45;&#108;e&#100;o&#117;x&#46;com</span>
+										<span class="elementor-icon-list-text">&#109;a&#105;l&#64;&#110;&#101;&#105;l&#45;le&#100;o&#117;&#120;.&#99;&#111;&#109;</span>
 											</a>
 									</li>
 								<li class="elementor-icon-list-item">
