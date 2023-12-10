@@ -12,13 +12,13 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description></description>
-	<lastBuildDate>Tue, 05 Dec 2023 04:14:38 +0000</lastBuildDate>
+	<lastBuildDate>Sun, 10 Dec 2023 05:46:24 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=6.4.1</generator>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
 	<item>
 		<title>_Series Template</title>
 		<link>./../../../_series-template/index.html</link>
@@ -1833,7 +1833,7 @@
 </tr>
 </tbody>
 </table>
-<!-- #tablepress-1 from cache --></div></div>
+</div></div>
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532">Medium</div>
 					<div id="elementor-tab-content-2532" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2532" tabindex="0" hidden="hidden"><div class="menucat" tabindex="0">
 <h5>Medium Type</h5>
@@ -3500,7 +3500,7 @@
 </tr>
 </tbody>
 </table>
-<!-- #tablepress-1-no-2 from cache --></div></div>
+</div></div>
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533">Size</div>
 					<div id="elementor-tab-content-2533" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2533" tabindex="0" hidden="hidden"><div class="menucat" tabindex="0">
 <h5>Size Range</h5>
@@ -5169,7 +5169,7 @@
 </tr>
 </tbody>
 </table>
-<!-- #tablepress-1-no-3 from cache --></div></div>
+</div></div>
 									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="4" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2534">Status</div>
 					<div id="elementor-tab-content-2534" class="elementor-tab-content elementor-clearfix" data-tab="4" role="tabpanel" aria-labelledby="elementor-tab-title-2534" tabindex="0" hidden="hidden"><div class="menucat" tabindex="0">
 <h5>Availability</h5>
@@ -6837,7 +6837,7 @@
 </tr>
 </tbody>
 </table>
-<!-- #tablepress-1-no-4 from cache --></div></div>
+</div></div>
 							</div>
 		</div>
 				</div>
@@ -6869,7 +6869,7 @@
 						<div class="elementor-container elementor-column-gap-default">
 								</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-072d345 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="072d345" data-element_type="section" id="2ndheader">
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-072d345 elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle" data-id="072d345" data-element_type="section" id="noimageheader">
 						<div class="elementor-container elementor-column-gap-default">
 					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-09c0fe6" data-id="09c0fe6" data-element_type="column">
 			<div class="elementor-widget-wrap">
@@ -6916,7 +6916,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-c18f00b elementor-widget elementor-widget-text-editor" data-id="c18f00b" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p class="p1"><span class="s1">At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a classical Greek sculpture. </span></p><p class="p1"><span class="s1">At six, I described it best by simply calling it a “fountain”.</span></p><p class="p1"><span class="s1">I made my first drawings as efforts to describe the fountain I saw. It shows up over and over in my art practice.</span></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p class="p1"><span class="s1">At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a classical Greek sculpture. </span></p><p class="p1"><span class="s1">At six, I described it best by simply calling it a “fountain”.</span></p><p class="p1"><span class="s1">I made my first drawings as efforts to describe the fountain I saw. Now, it shows up over and over in my art practice.</span></p></div>
 				</div>
 				</div>
 					</div>
@@ -6925,7 +6925,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-45aaeaf elementor-widget elementor-widget-text-editor" data-id="45aaeaf" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p class="p1"><span class="s1">My works are concerned with time, materiality and transformation. I produce textures and patterns that reflect the countless layers and dimensions that make up the universe.</span></p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p class="p1"><span class="s1">My work is concerned with time, materiality and transformation. I produce paintings with textures and patterns which symbolize the countless layers and dimensions that make up the universe.</span></p></div>
 				</div>
 				</div>
 					</div>
@@ -7014,9 +7014,9 @@
 				<div class="elementor-widget-container">
 					<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
-					<a href="mailto:%&#50;&#48;m&#97;i&#108;&#64;&#110;e&#105;&#108;&#45;ledoux.com">						<span class="elementor-icon-list-icon">
+					<a href="mailto:%&#50;0m&#97;&#105;l&#64;nei&#108;&#45;l&#101;d&#111;ux&#46;&#99;&#111;m">						<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="far fa-envelope"></i>						</span>
-										<span class="elementor-icon-list-text">&#109;a&#105;l&#64;&#110;&#101;&#105;l&#45;le&#100;o&#117;&#120;.&#99;&#111;&#109;</span>
+										<span class="elementor-icon-list-text">&#109;ail&#64;ne&#105;l-led&#111;&#117;x&#46;com</span>
 											</a>
 									</li>
 								<li class="elementor-icon-list-item">
