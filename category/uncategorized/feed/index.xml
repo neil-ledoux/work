@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../../../index.html</link>
 	<description></description>
-	<lastBuildDate>Mon, 11 Dec 2023 02:24:23 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 11 Dec 2023 04:48:58 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -6862,7 +6862,7 @@
 				<category><![CDATA[Uncategorized]]></category>
 		<guid isPermaLink="false">./../../../index.html?page_id=9179</guid>
 
-					<description><![CDATA[CV Contact CV Contact At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a classical Greek [&#8230;]]]></description>
+					<description><![CDATA[Bio CV Contact Bio At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a classical Greek [&#8230;]]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-page" data-elementor-id="9179" class="elementor elementor-9179" data-elementor-settings="[]">
 							<div class="elementor-section-wrap">
 							<section class="elementor-section elementor-top-section elementor-element elementor-element-64c5995d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="64c5995d" data-element_type="section">
@@ -6894,36 +6894,28 @@
 				<div class="elementor-widget-container">
 					<div class="elementor-tabs">
 			<div class="elementor-tabs-wrapper" role="tablist" >
-									<div id="elementor-tab-title-2531" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531"><a class="CV" href="#CV">CV</a></div>
-									<div id="elementor-tab-title-2532" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532"><a class="contact2" href="#contact3">Contact</a></div>
+									<div id="elementor-tab-title-2531" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531">Bio</div>
+									<div id="elementor-tab-title-2532" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532">CV</div>
+									<div id="elementor-tab-title-2533" class="elementor-tab-title elementor-tab-desktop-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533">Contact</div>
 							</div>
 			<div class="elementor-tabs-content-wrapper" role="tablist" aria-orientation="vertical">
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531"><a class="CV" href="#CV">CV</a></div>
-					<div id="elementor-tab-content-2531" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2531" tabindex="0" hidden="false"></div>
-									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532"><a class="contact2" href="#contact3">Contact</a></div>
-					<div id="elementor-tab-content-2532" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2532" tabindex="0" hidden="hidden"></div>
-							</div>
-		</div>
-				</div>
-				</div>
-					</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-3fdb487 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="3fdb487" data-element_type="section">
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="true" data-tab="1" role="tab" tabindex="0" aria-controls="elementor-tab-content-2531">Bio</div>
+					<div id="elementor-tab-content-2531" class="elementor-tab-content elementor-clearfix" data-tab="1" role="tabpanel" aria-labelledby="elementor-tab-title-2531" tabindex="0" hidden="false">		<div data-elementor-type="section" data-elementor-id="13236" class="elementor elementor-13236" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-2985cd91 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2985cd91" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a7e155d" data-id="a7e155d" data-element_type="column">
+					<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-7a2e46e0" data-id="7a2e46e0" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c18f00b elementor-widget elementor-widget-text-editor" data-id="c18f00b" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-6b14888c elementor-widget elementor-widget-text-editor" data-id="6b14888c" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><p class="p1"><span class="s1">At age six, in a clearing in the woods, I experienced a hallucination. The form that I saw appeared to have a kind of fractal-like, angular architecture. At the same time, it somehow seemed to imply movement, like a photograph of water reflections or the rhythmic design of a classical Greek sculpture. </span></p><p class="p1"><span class="s1">At six, I described it best by simply calling it a “fountain”.</span></p><p class="p1"><span class="s1">I made my first drawings as efforts to describe the fountain I saw. Now, it shows up over and over in my art practice.</span></p></div>
 				</div>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e2a8cc5" data-id="e2a8cc5" data-element_type="column">
+				<div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2c16f1dc" data-id="2c16f1dc" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-45aaeaf elementor-widget elementor-widget-text-editor" data-id="45aaeaf" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-1c1e9617 elementor-widget elementor-widget-text-editor" data-id="1c1e9617" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><p class="p1"><span class="s1">My work is concerned with time, materiality and transformation. I produce paintings with textures and patterns that symbolize the countless layers and dimensions that make up the universe.</span></p></div>
 				</div>
@@ -6932,29 +6924,79 @@
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-1fc464a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1fc464a" data-element_type="section" id="CV">
+				</div>
+		</div>
+		
+		<div data-elementor-type="section" data-elementor-id="13242" class="elementor elementor-13242" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-507c17fc elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="507c17fc" data-element_type="section" id="about">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-dc078d8" data-id="dc078d8" data-element_type="column">
+					<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-960b409" data-id="960b409" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-4505f27c" data-id="4505f27c" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-345317e elementor-widget elementor-widget-text-editor" data-id="345317e" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-23f6d608 elementor-widget elementor-widget-text-editor" data-id="23f6d608" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>b. 1976<br />Sulphur,<br />Louisiana</p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-233ff8e" data-id="233ff8e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-2fd22741 elementor-widget elementor-widget-text-editor" data-id="2fd22741" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>BFA 2009<br />MFA 2011<br />California<br />College <br />of the Arts</p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-68ad7ebc" data-id="68ad7ebc" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-930d41e elementor-widget elementor-widget-text-editor" data-id="930d41e" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-text-editor elementor-clearfix"><p>Studio<br />San Francisco<br />Bay Area<br />California</p></div>
+				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-667ee809" data-id="667ee809" data-element_type="column">
+			<div class="elementor-widget-wrap">
+									</div>
+		</div>
+							</div>
+		</section>
+				</div>
+		</div>
+		</div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="2" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2532">CV</div>
+					<div id="elementor-tab-content-2532" class="elementor-tab-content elementor-clearfix" data-tab="2" role="tabpanel" aria-labelledby="elementor-tab-title-2532" tabindex="0" hidden="hidden">		<div data-elementor-type="section" data-elementor-id="13239" class="elementor elementor-13239" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-7aa45652 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7aa45652" data-element_type="section" id="CV">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-37a0e73b" data-id="37a0e73b" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-40349aa3 elementor-widget elementor-widget-text-editor" data-id="40349aa3" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><p><strong>Exhibitions</strong></p><p>2013</p><p>“Overturn the Artiface”<br />SOMArts, San Francisco, CA</p><p>2012</p><p>“Ten Revolutions around the Sun,<br />A Decade of the Tournesol Painting Award”<br />Headlands Center for the Arts,<br />Sausalito, CA</p><p>“People of Earth”<br />Luggage Store Gallery,<br />San Francisco, CA</p><p>2011</p><p>“American Summer Project”<br />Wattis Institute for Contemporary Arts,<br />San Francisco CA</p><p>2010</p><p>“Lost”<br />Right Window at ATA, San Francisco<br />“Whistle While You Dixie”<br />Summer BF Press HQ,<br />San Francisco, CA</p><p>2009</p><p>“The Exhibition Formerly Known as Passengers: 2.5 ”<br />Wattis Institute for Contemporary Arts,<br />San Francisco CA</p><p>“The Fountain of Giant Teardrops”<br />Silverman Gallery, San Francisco CA</p></div>
 				</div>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-58faf76" data-id="58faf76" data-element_type="column">
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-692fbd09" data-id="692fbd09" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-f122fd3 elementor-widget elementor-widget-text-editor" data-id="f122fd3" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-6c13dbba elementor-widget elementor-widget-text-editor" data-id="6c13dbba" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><p><strong style="color: var( --e-global-color-text ); font-family: var( --e-global-typography-text-font-family ), Sans-serif; letter-spacing: var( --e-global-typography-text-letter-spacing ); font-size: 0.98rem;">Press</strong></p><p>Artpractica: Mark Van Proyen <br />“Overturn the Artifice” <br />March 1, 2013 | San Francisco, CA.<br /><a href="http://www.artpractical.com/review/overturn_the_artifice/" target="_blank" rel="noopener">http://www.artpractical.com/review/overturn_the_artifice/</a></p><p>SF Gate: Kenneth Baker <br />“Bright&#8217;s eccentricity, Crosby&#8217;s marginality” <br />July 20, 2012 | San Francisco, CA.<br /><a href="http://www.sfgate.com/art/article/Bright-s-eccentricity-Crosby-s-marginality-3723760.php" target="_blank" rel="noopener">http://www.sfgate.com/art/article/Bright-s-eccentricity-Crosby-s-marginality-3723760.php</a></p><p>SFMOMA Open Space: Cedar Sigo <br />“The Lanterns Along the Wall” <br />October 31, 2009 | San Francisco, CA<br /><a href="http://blog.sfmoma.org/2009/10/the-lanterns-along-the-wall/" target="_blank" rel="noopener">http://blog.sfmoma.org/2009/10/the-lanterns-along-the-wall/</a></p><p>Art in America: Melissa Feldman <br />“Exhibition Reviews” <br />June/July, 2009 | San Francisco, CA</p><p>KQED Arts: Victoria Gannon <br />“The Fountain of Giant Teardrops” February 22,2009 <br />San Francisco, CA<br /><a href="https://www.kqed.org/arts/24079/the_fountain_of_giant_teardrops/" target="_blank" rel="noopener">https://www.kqed.org/arts/24079/the_fountain_of_giant_teardrops/</a></p><p>San Francisco Chronicle: Kenneth Baker <br />“Light in the Forest” <br />February 7, 2009 | San Francisco, CA</p></div>
 				</div>
 				</div>
 					</div>
 		</div>
-				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-133e117" data-id="133e117" data-element_type="column">
+				<div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-19d2c17c" data-id="19d2c17c" data-element_type="column">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-d83faa7 elementor-widget elementor-widget-text-editor" data-id="d83faa7" data-element_type="widget" data-widget_type="text-editor.default">
+								<div class="elementor-element elementor-element-6b86f8f6 elementor-widget elementor-widget-text-editor" data-id="6b86f8f6" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
 					<div class="elementor-text-editor elementor-clearfix"><p><strong>Awards / Residencies<br /></strong></p><p>c i Care Award for Therapeutic Art Practice<br />Stanford Medical Center, Palo Alto, CA<br /><a href="https://stanfordhealthcare.org/for-patients-visitors/arts-program/art-for-health-patient-art-spotlight.html" target="_blank" rel="noopener">https://stanfordhealthcare.org/for-patients-visitors/arts-program/art-for-health-patient-art-spotlight.html</a></p><p>The Tournesol Award for Painting<br />Headlands Center for the Arts, Sausalito, CA<br /><a href="https://www.headlands.org/program/tournesol-award/" target="_blank" rel="noopener">https://www.headlands.org/program/tournesol-award/</a></p><p>Brooks Fellowship Award for Established Artist Anderson Ranch Arts Center, Snowmass Village, CO<br /><a href="https://www.andersonranch.org/programs/artists-in-residence-program/" target="_blank" rel="noopener">https://www.andersonranch.org/programs/artists-in-residence-program/</a></p></div>
 				</div>
@@ -6963,60 +7005,27 @@
 		</div>
 							</div>
 		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-ebf79af elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="ebf79af" data-element_type="section" id="about">
+				</div>
+		</div>
+		</div>
+									<div class="elementor-tab-title elementor-tab-mobile-title" aria-selected="false" data-tab="3" role="tab" tabindex="-1" aria-controls="elementor-tab-content-2533">Contact</div>
+					<div id="elementor-tab-content-2533" class="elementor-tab-content elementor-clearfix" data-tab="3" role="tabpanel" aria-labelledby="elementor-tab-title-2533" tabindex="0" hidden="hidden">		<div data-elementor-type="section" data-elementor-id="13245" class="elementor elementor-13245" data-elementor-settings="[]">
+		<div class="elementor-section-wrap">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-1fa2dcf8 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="1fa2dcf8" data-element_type="section" id="contact3">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-9e3236b" data-id="9e3236b" data-element_type="column">
-			<div class="elementor-widget-wrap">
-									</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-eece9ee" data-id="eece9ee" data-element_type="column">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5ef9c1ca" data-id="5ef9c1ca" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-8d66b2f elementor-widget elementor-widget-text-editor" data-id="8d66b2f" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>b. 1976<br />Sulphur,<br />Louisiana</p></div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-325f918" data-id="325f918" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-7b6a01b elementor-widget elementor-widget-text-editor" data-id="7b6a01b" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>BFA 2009<br />MFA 2011<br />California<br />College <br />of the Arts</p></div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-28b1429" data-id="28b1429" data-element_type="column">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-c3027cc elementor-widget elementor-widget-text-editor" data-id="c3027cc" data-element_type="widget" data-widget_type="text-editor.default">
-				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Studio<br />San Francisco<br />Bay Area<br />California</p></div>
-				</div>
-				</div>
-					</div>
-		</div>
-				<div class="elementor-column elementor-col-20 elementor-top-column elementor-element elementor-element-3cdda9a" data-id="3cdda9a" data-element_type="column">
-			<div class="elementor-widget-wrap">
-									</div>
-		</div>
-							</div>
-		</section>
-				<section class="elementor-section elementor-top-section elementor-element elementor-element-a6024a6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="a6024a6" data-element_type="section" id="contact3">
+								<section class="elementor-section elementor-inner-section elementor-element elementor-element-75309f25 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="75309f25" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-53e0bb7" data-id="53e0bb7" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-77349ca3" data-id="77349ca3" data-element_type="column" id="contact" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
 			<div class="elementor-widget-wrap elementor-element-populated">
-								<section class="elementor-section elementor-inner-section elementor-element elementor-element-d417f64 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="d417f64" data-element_type="section">
-						<div class="elementor-container elementor-column-gap-default">
-					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-19f0ff3" data-id="19f0ff3" data-element_type="column" id="contact" data-settings="{&quot;background_background&quot;:&quot;slideshow&quot;,&quot;background_slideshow_gallery&quot;:[],&quot;background_slideshow_loop&quot;:&quot;yes&quot;,&quot;background_slideshow_slide_duration&quot;:5000,&quot;background_slideshow_slide_transition&quot;:&quot;fade&quot;,&quot;background_slideshow_transition_duration&quot;:500}">
-			<div class="elementor-widget-wrap elementor-element-populated">
-								<div class="elementor-element elementor-element-83cc9e9 elementor-list-item-link-inline elementor-align-left elementor-widget__width-inherit elementor-tablet-align-left elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="83cc9e9" data-element_type="widget" data-widget_type="icon-list.default">
+								<div class="elementor-element elementor-element-17049b1d elementor-list-item-link-inline elementor-align-left elementor-widget__width-inherit elementor-tablet-align-left elementor-mobile-align-left elementor-icon-list--layout-traditional elementor-widget elementor-widget-icon-list" data-id="17049b1d" data-element_type="widget" data-widget_type="icon-list.default">
 				<div class="elementor-widget-container">
 					<ul class="elementor-icon-list-items">
 							<li class="elementor-icon-list-item">
-					<a href="mailto:%&#50;&#48;&#109;&#97;&#105;&#108;&#64;&#110;e&#105;l-&#108;&#101;&#100;oux&#46;c&#111;m">						<span class="elementor-icon-list-icon">
+					<a href="mailto:%&#50;0m&#97;il&#64;&#110;&#101;il&#45;&#108;edo&#117;&#120;&#46;&#99;&#111;&#109;">						<span class="elementor-icon-list-icon">
 							<i aria-hidden="true" class="far fa-envelope"></i>						</span>
-										<span class="elementor-icon-list-text">ma&#105;l&#64;&#110;&#101;i&#108;&#45;&#108;ed&#111;&#117;&#120;&#46;c&#111;m</span>
+										<span class="elementor-icon-list-text">&#109;&#97;&#105;l&#64;neil-l&#101;do&#117;x&#46;&#99;om</span>
 											</a>
 									</li>
 								<li class="elementor-icon-list-item">
@@ -7050,6 +7059,17 @@
 		</div>
 							</div>
 		</section>
+					</div>
+		</div>
+							</div>
+		</section>
+				</div>
+		</div>
+		</div>
+							</div>
+		</div>
+				</div>
+				</div>
 					</div>
 		</div>
 							</div>
