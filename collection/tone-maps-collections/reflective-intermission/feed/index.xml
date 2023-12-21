@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Reflective Intermission &#8211; Neil LeDoux</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 05 Dec 2023 01:13:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>Mirror No.4 (Two-way Reflection)</title>
+		<link>./../../../../mirror-no-4-two-way-reflection/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:01:34 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Reflective Intermission]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10777</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mirror No.3 (Convex Reflection)</title>
+		<link>./../../../../mirror-no-3-convex-reflection/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:01:33 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Reflective Intermission]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10774</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mirror No.2 (Concave Reflection)</title>
+		<link>./../../../../mirror-no-2-concave-reflection/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:01:32 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Reflective Intermission]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10771</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Mirror No.1 ( Plane Reflection)</title>
+		<link>./../../../../mirror-no-1-plane-reflection/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:01:31 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Reflective Intermission]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10768</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

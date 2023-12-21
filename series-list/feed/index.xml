@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Series List &#8211; Neil LeDoux</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 12 Dec 2023 11:15:02 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>Tone Maps</title>
+		<link>./../../tone-maps/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 12:17:37 +0000</pubDate>
+				<category><![CDATA[Series List]]></category>
+		<guid isPermaLink="false">./../../index.html?page_id=11140</guid>
+
+					<description><![CDATA[Tone Maps Series 0 Collections Tone Maps are a series oil paintings which visualize music known collectively as “furniture music”. Fixture No.4 (Wall Port) Fixture No.1 (Ceiling Mounted Port) Fixture No.3 ( Recessed Port) Fixture No.2 (Pendant Port) Plate No.2 (Stoneware Composition) Plate No.3 (Earthenware Composition) Plate No.4 (Serviceware Composition) Nightstand No.1 (Ceramic Frame) Nightstand [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Diamond Works</title>
+		<link>./../../diamond-works/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 12:02:08 +0000</pubDate>
+				<category><![CDATA[Series List]]></category>
+		<guid isPermaLink="false">./../../index.html?page_id=8770</guid>
+
+					<description><![CDATA[Diamond Works Series 0 Collections &#8220;Diamond Works&#8221; is a series of paintings that explore the process of carbon crystalization over time. Crystallograph (Cubic Carbon) Crystallograph (Dodecahedral Carbon) Crystallograph (Irregular Carbon) Crystallograph (Isohedron Carbon) Crystallograph (Macles Carbon) Crystallograph (Octahedral Carbon) Crystallograph (Pentagonal Carbon) Crystallograph (Rhombic Carbon) Crystallograph (Tetragonal  Carbon) Crystallograph (Twined Carbon) Crystallograph (Pentagonal Gold) Crystallograph [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Geology</title>
+		<link>./../../geology/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Wed, 22 Feb 2023 05:18:14 +0000</pubDate>
+				<category><![CDATA[Series List]]></category>
+		<guid isPermaLink="false">./../../index.html?page_id=7025</guid>
+
+					<description><![CDATA[Geology Series 0 Collections &#8220;Geology&#8221; is a series of paintings that explore the Earth&#8217;s geological structures. Glade Grassland Jannah Marsh Meadow Polar Ice Riverbank Sand Trap Stone Setting After the Wildfire Clifton Pass Concrete Falls Gottard Pass Highway Valley Palmdale Road Peaks Drive Road to Chernihiv Saphan Bridge Tarmac Hill Tuskany Road Aurora Eclipse Grey [&#8230;]]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

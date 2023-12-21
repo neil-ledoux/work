@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Auxiliary Orchestra &#8211; Neil LeDoux</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 05 Dec 2023 01:13:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>Fixture No.2 (Pendant Port)</title>
+		<link>./../../../../fixture-no-2-pendant-port/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:24 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Auxiliary Orchestra]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10223</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Fixture No.3 ( Recessed Port)</title>
+		<link>./../../../../fixture-no-3-recessed-port/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:23 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Auxiliary Orchestra]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10218</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Fixture No.1 (Ceiling Mounted Port)</title>
+		<link>./../../../../fixture-no-1-ceiling-mounted-port/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:22 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Auxiliary Orchestra]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10210</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Fixture No.4 (Wall Port)</title>
+		<link>./../../../../fixture-no-4-wall-port/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:21 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Auxiliary Orchestra]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=11708</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>

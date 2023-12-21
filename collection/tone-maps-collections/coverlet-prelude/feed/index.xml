@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Coverlet Prelude &#8211; Neil LeDoux</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Tue, 05 Dec 2023 01:13:53 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>Quilt No.4 (Adaptive Pattern)</title>
+		<link>./../../../../quilt-no-4-adaptive-pattern/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:59 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Coverlet Prelude]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10437</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Quilt No.3 (Patchwork Pattern)</title>
+		<link>./../../../../quilt-no-3-patchwork-pattern/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:58 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Coverlet Prelude]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10434</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Quilt No.2 (Miniature Pattern)</title>
+		<link>./../../../../quilt-no-2-miniature-pattern/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:57 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Coverlet Prelude]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10431</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Quilt No.1 (Memory Pattern)</title>
+		<link>./../../../../quilt-no-1-memory-pattern/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Mon, 04 Dec 2023 08:00:56 +0000</pubDate>
+				<category><![CDATA[2023]]></category>
+		<category><![CDATA[All works]]></category>
+		<category><![CDATA[Coverlet Prelude]]></category>
+		<category><![CDATA[Oil on Canvas]]></category>
+		<category><![CDATA[Painting]]></category>
+		<category><![CDATA[Small Format]]></category>
+		<category><![CDATA[Tone Maps]]></category>
+		<guid isPermaLink="false">./../../../../index.html?page_id=10428</guid>
+
+					<description><![CDATA[]]></description>
+		
+		
+		
+			</item>
+	</channel>
+</rss>
