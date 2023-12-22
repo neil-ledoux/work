@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Uncategorized &#8211; Neil LeDoux</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Thu, 14 Dec 2023 08:04:56 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.4.2</generator>
+	<item>
+		<title>_Series Template</title>
+		<link>./../../../_series-template/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Tue, 28 Nov 2023 12:03:04 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?page_id=11128</guid>
+
+					<description><![CDATA[&#8220;Geology&#8221; is a series of oil paintings that offer a unique perspective on the planet Earth showcasing a wide range of landscapes.  About Geology Series 10 Collections Shoreline Woodland Nightfall Clearing Sand and Stone Tundra Tropics Nighttide Highway Walkway singework 2 2022Oil on CanvasDiamond Series Singular Work Geology 2022Oil on CanvasGeology Geology 2022Oil on CanvasDiamond [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Catalog</title>
+		<link>./../../../catalog/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Wed, 01 Mar 2023 23:04:15 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?page_id=8759</guid>
+
+					<description><![CDATA[All Medium Size Status All Series Title Crystallograph (Isohedron Graphite) Coat Stand No.1 (Stand-alone Frame) _single work temp After the Wildfire Plate No.1 (Chargerware Composition) Mantle No.1 (Marble Facade) After The Rain Aparition Area Rug No.1 (Wool) Area Rug No.2 (Silk) Edit Lot# ⇅ Title ⇅ Series 1 Simgle Work 1 Diamonds 2 3 4 [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>About</title>
+		<link>./../../../about/index.html</link>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Wed, 01 Mar 2023 23:03:02 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?page_id=9179</guid>
+
+					<description><![CDATA[Bio CV Contact Bio At the age of six in a wooded clearing, I experienced a visual hallucination. The form I saw had a detailed, fractal structure that, despite being still, suggested movement—similar to the way motion is implied in a photograph of water reflections or in the rhythmic designs of classical Greek sculptures. As [&#8230;]]]></description>
+		
+		
+		
+			</item>
+		<item>
+		<title>Portfolio</title>
+		<link>./../../../uncategorized/portfolio/index.html</link>
+					<comments>./../../../uncategorized/portfolio/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Sun, 22 Jan 2023 07:08:41 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=728</guid>
+
+					<description><![CDATA[]]></description>
+		
+					<wfw:commentRss>./../../../uncategorized/portfolio/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Hello world!</title>
+		<link>./../../../uncategorized/hello-world/index.html</link>
+					<comments>./../../../uncategorized/hello-world/index.html#comments</comments>
+		
+		<dc:creator><![CDATA[neil]]></dc:creator>
+		<pubDate>Wed, 18 Jan 2023 03:19:22 +0000</pubDate>
+				<category><![CDATA[Uncategorized]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=1</guid>
+
+					<description><![CDATA[Welcome to WordPress. This is your first post. Edit or delete it, then start writing!]]></description>
+		
+					<wfw:commentRss>./../../../uncategorized/hello-world/feed/index.html</wfw:commentRss>
+			<slash:comments>1</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
